@@ -1,0 +1,2561 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "382cfe3c-f4f7-5ab0-ada9-b6784f1469d7")
+	(paper "A3")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+		(comment 2 "Architecture rev 0.1. Not a fabrication package.")
+	)
+	(lib_symbols
+		(symbol "ultra:ADM1266-U55"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 9.120000000000001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADM1266"
+			(at 0 -9.120000000000001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "ADM1266-U55_0_1"
+				(rectangle (start -17.78 -7.62) (end 17.78 7.62)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "ADM1266-U55_1_1"
+				(pin input line
+					(at -17.78 3.81 180)
+					(length 2.54)
+					(name "VX1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at -17.78 1.27 180)
+					(length 2.54)
+					(name "VX2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at -17.78 -1.27 180)
+					(length 2.54)
+					(name "VX3" (effects (font (size 1.016 1.016))))
+					(number "3" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at -17.78 -3.81 180)
+					(length 2.54)
+					(name "VX4" (effects (font (size 1.016 1.016))))
+					(number "4" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at 17.78 2.54 0)
+					(length 2.54)
+					(name "PDO1" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "PDO2" (effects (font (size 1.016 1.016))))
+					(number "102" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at 17.78 -2.54 0)
+					(length 2.54)
+					(name "FAULT" (effects (font (size 1.016 1.016))))
+					(number "103" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 0.00 7.62 90)
+					(length 2.54)
+					(name "VCC" (effects (font (size 1.016 1.016))))
+					(number "201" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -2.54 -7.62 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at 0.00 -7.62 270)
+					(length 2.54)
+					(name "SDA" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 2.54 -7.62 270)
+					(length 2.54)
+					(name "SCL" (effects (font (size 1.016 1.016))))
+					(number "303" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P3V3_ALWAYS"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3_ALWAYS"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P3V3_ALWAYS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P3V3_ALWAYS_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P3V3_ALWAYS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 0.0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol GND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:KEY_TX-SW1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KEY_TX"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "KEY_TX-SW1_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "KEY_TX-SW1_1_1"
+				(pin passive line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "A" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "B" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "ultra:TX_ARM_LDO-U56"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX_ARM_LDO"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "TX_ARM_LDO-U56_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "TX_ARM_LDO-U56_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 0.00 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "ultra:INA228-U57"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA228"
+			(at 0 -7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "INA228-U57_0_1"
+				(rectangle (start -17.78 -6.35) (end 17.78 6.35)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "INA228-U57_1_1"
+				(pin input line
+					(at -17.78 1.27 180)
+					(length 2.54)
+					(name "INP" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at -17.78 -1.27 180)
+					(length 2.54)
+					(name "INN" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at 17.78 2.54 0)
+					(length 2.54)
+					(name "ALERT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "SDA" (effects (font (size 1.016 1.016))))
+					(number "102" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 17.78 -2.54 0)
+					(length 2.54)
+					(name "SCL" (effects (font (size 1.016 1.016))))
+					(number "103" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 0.00 6.35 90)
+					(length 2.54)
+					(name "VCC" (effects (font (size 1.016 1.016))))
+					(number "201" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 0.00 -6.35 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P3V3"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P3V3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P3V3_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:2pin-PWR"
+			(pin_numbers (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PWR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "2pin-PWR_0_1"
+				(polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -1.016 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			)
+			(symbol "2pin-PWR_1_1"
+				(pin passive line (at -5.08 0 180) (length 2.54)
+					(name "1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 1.016 1.016)))))
+				(pin passive line (at 5.08 0 0) (length 2.54)
+					(name "2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 1.016 1.016)))))
+			)
+		)
+		(symbol "ultra:2pin-AFE"
+			(pin_numbers (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AFE"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AFE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "2pin-AFE_0_1"
+				(polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -1.016 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			)
+			(symbol "2pin-AFE_1_1"
+				(pin passive line (at -5.08 0 180) (length 2.54)
+					(name "1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 1.016 1.016)))))
+				(pin passive line (at 5.08 0 0) (length 2.54)
+					(name "2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 1.016 1.016)))))
+			)
+		)
+		(symbol "ultra:2pin-FPGA"
+			(pin_numbers (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FPGA"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FPGA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "2pin-FPGA_0_1"
+				(polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -1.016 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			)
+			(symbol "2pin-FPGA_1_1"
+				(pin passive line (at -5.08 0 180) (length 2.54)
+					(name "1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 1.016 1.016)))))
+				(pin passive line (at 5.08 0 0) (length 2.54)
+					(name "2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 1.016 1.016)))))
+			)
+		)
+		(symbol "ultra:2pin-USB"
+			(pin_numbers (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "2pin-USB_0_1"
+				(polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -1.016 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			)
+			(symbol "2pin-USB_1_1"
+				(pin passive line (at -5.08 0 180) (length 2.54)
+					(name "1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 1.016 1.016)))))
+				(pin passive line (at 5.08 0 0) (length 2.54)
+					(name "2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 1.016 1.016)))))
+			)
+		)
+		(symbol "ultra:2pin-LINK"
+			(pin_numbers (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LINK"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LINK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "2pin-LINK_0_1"
+				(polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -1.016 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			)
+			(symbol "2pin-LINK_1_1"
+				(pin passive line (at -5.08 0 180) (length 2.54)
+					(name "1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 1.016 1.016)))))
+				(pin passive line (at 5.08 0 0) (length 2.54)
+					(name "2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 1.016 1.016)))))
+			)
+		)
+		(symbol "ultra:2pin-TX"
+			(pin_numbers (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "2pin-TX_0_1"
+				(polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -1.016 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			)
+			(symbol "2pin-TX_1_1"
+				(pin passive line (at -5.08 0 180) (length 2.54)
+					(name "1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 1.016 1.016)))))
+				(pin passive line (at 5.08 0 0) (length 2.54)
+					(name "2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 1.016 1.016)))))
+			)
+		)
+		(symbol "ultra:2pin-FAULT"
+			(pin_numbers (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FAULT"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FAULT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "2pin-FAULT_0_1"
+				(polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -1.016 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			)
+			(symbol "2pin-FAULT_1_1"
+				(pin passive line (at -5.08 0 180) (length 2.54)
+					(name "1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 1.016 1.016)))))
+				(pin passive line (at 5.08 0 0) (length 2.54)
+					(name "2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 1.016 1.016)))))
+			)
+		)
+	)
+	(text "ADM1266 sequences every rail in the order the Versal and the AD9084 demand, logs faults, and is the only device allowed to release EN_* . The TX key is a physical break in TX_ARM, pulled down on the far side. LEDs report power, link and an actually-armed PA. They are single color, same lesson as Praline: the color is not the meaning."
+		(at 20.00 18.00 0)
+		(effects (font (size 1.4 1.4)))
+		(uuid "c1f9f351-1f8f-594e-a6d8-6c8de02ceef6")
+	)
+	(symbol
+		(lib_id "ultra:ADM1266-U55")
+		(at 80.00 80.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f25a8b19-a216-5adb-a281-491df07df8a1")
+		(property "Reference" "U55"
+			(at 80 78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADM1266"
+			(at 80 82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/adm1266.html"
+			(at 80 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Super sequencer with EEPROM fault log. The state machine is transcribed from the Versal power diagram and UG-2300, then verified on the bench before the PA fuse is fitted."
+			(at 80 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ADM1266"
+			(at 80 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "U55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 80.00 87.62) (xy 80.00 92.70))
+		(stroke (width 0) (type default))
+		(uuid "b112944b-6937-5dd7-894a-99fc15de49bc")
+	)
+	(symbol
+		(lib_id "power:P3V3_ALWAYS")
+		(at 80.00 92.70 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf9d34e7-d8fd-52fc-ad35-4d7f378c5e2a")
+		(property "Reference" "#PWR151"
+			(at 80.0 90.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3_ALWAYS"
+			(at 80.0 94.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.0 92.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "#PWR151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 77.46 72.38) (xy 77.46 67.30))
+		(stroke (width 0) (type default))
+		(uuid "46cb5de0-b723-5998-8d63-0620ba718459")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.46 67.30 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7de39e7-74e7-5922-8c05-f029f3bc2a33")
+		(property "Reference" "#PWR152"
+			(at 77.46 65.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.46 69.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.46 67.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "#PWR152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 80.00 72.38) (xy 80.00 64.76))
+		(stroke (width 0) (type default))
+		(uuid "f2a46ffa-6260-59e0-be20-56cbaaa482cc")
+	)
+	(global_label "SEQ_SDA"
+		(shape bidirectional)
+		(at 80.00 64.76 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "73a36ce4-6a1f-560d-a481-18c2b9eeb074")
+	)
+	(wire
+		(pts (xy 82.54 72.38) (xy 82.54 64.76))
+		(stroke (width 0) (type default))
+		(uuid "2812167c-66f8-57a1-bf42-34987234851f")
+	)
+	(global_label "SEQ_SCL"
+		(shape bidirectional)
+		(at 82.54 64.76 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "adbb5364-2dd9-5056-89ef-6a628297b520")
+	)
+	(wire
+		(pts (xy 62.22 83.81) (xy 49.52 83.81))
+		(stroke (width 0) (type default))
+		(uuid "3851308f-622e-5a2b-b438-34b259aba500")
+	)
+	(global_label "MON_P48V"
+		(shape bidirectional)
+		(at 49.52 83.81 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "cdd2503e-9274-5140-81d2-f406f79cd571")
+	)
+	(wire
+		(pts (xy 62.22 81.27) (xy 49.52 81.27))
+		(stroke (width 0) (type default))
+		(uuid "fdc5f289-b56b-51a2-b305-4b56bd202133")
+	)
+	(global_label "MON_P3V3"
+		(shape bidirectional)
+		(at 49.52 81.27 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "4d4854d6-98b7-5e4e-b7de-11773cb38734")
+	)
+	(wire
+		(pts (xy 62.22 78.73) (xy 49.52 78.73))
+		(stroke (width 0) (type default))
+		(uuid "2dd2e314-5aa9-5194-952a-53449bc7b5d4")
+	)
+	(global_label "MON_P0V80_VCCINT"
+		(shape bidirectional)
+		(at 49.52 78.73 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "b963806f-c9e6-569b-aee4-c0b3720363b0")
+	)
+	(wire
+		(pts (xy 62.22 76.19) (xy 49.52 76.19))
+		(stroke (width 0) (type default))
+		(uuid "5e78bcda-0516-5ac5-adb5-825e798d66b1")
+	)
+	(global_label "MON_P1V0_BULK"
+		(shape bidirectional)
+		(at 49.52 76.19 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "b61d67bd-6715-5f82-b2e5-ad10ac3eeb1b")
+	)
+	(wire
+		(pts (xy 97.78 82.54) (xy 110.48 82.54))
+		(stroke (width 0) (type default))
+		(uuid "1c637886-3c28-5101-836b-6674cb1429d3")
+	)
+	(global_label "EN_P0V80_VCCINT"
+		(shape bidirectional)
+		(at 110.48 82.54 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "a7eebee0-7f4a-56fb-b680-15d3212016b5")
+	)
+	(wire
+		(pts (xy 97.78 80.00) (xy 110.48 80.00))
+		(stroke (width 0) (type default))
+		(uuid "6847713e-e1a7-5b78-9486-a9054653f4fc")
+	)
+	(global_label "EN_P1V0_BULK"
+		(shape bidirectional)
+		(at 110.48 80.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "bcd9e0b7-401d-588d-92d5-e0f586dd7057")
+	)
+	(wire
+		(pts (xy 97.78 77.46) (xy 110.48 77.46))
+		(stroke (width 0) (type default))
+		(uuid "d7c53f54-4d68-5767-88e1-91911dcf924b")
+	)
+	(global_label "SEQ_FAULT"
+		(shape bidirectional)
+		(at 110.48 77.46 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "3f2f7a68-03f5-57c3-96e7-00392228453b")
+	)
+	(symbol
+		(lib_id "ultra:KEY_TX-SW1")
+		(at 220.00 70.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b20dc97-4fff-503d-8c48-6cd41329e05d")
+		(property "Reference" "SW1"
+			(at 220 68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KEY_TX"
+			(at 220 72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 220 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Physical transmit arm. Open leaves TX_ARM pulled down. There is no software path around this switch."
+			(at 220 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 220 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "key-operated switch, break-before-make"
+			(at 220 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 202.22 70.00) (xy 189.52 70.00))
+		(stroke (width 0) (type default))
+		(uuid "ed3f1d65-9eef-58e5-b269-e5ec42c7d5d1")
+	)
+	(label "TX_ARM_SRC"
+		(at 189.52 70.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "ba5c87ef-2671-5c4c-bab1-113aaac06e57")
+	)
+	(wire
+		(pts (xy 237.78 70.00) (xy 250.48 70.00))
+		(stroke (width 0) (type default))
+		(uuid "05ae40b8-3dfa-59b1-8e22-2a1b4f56c62e")
+	)
+	(hierarchical_label "TX_ARM"
+		(shape bidirectional)
+		(at 250.48 70.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "8ad851cb-07ef-5557-a8cc-2e6912e807dc")
+	)
+	(symbol
+		(lib_id "ultra:TX_ARM_LDO-U56")
+		(at 220.00 110.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff7c944b-fe09-5b07-b5e2-5da0407a4701")
+		(property "Reference" "U56"
+			(at 220 108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX_ARM_LDO"
+			(at 220 112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 220 110 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220 110 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tiny always-defined source for the arm line, current-limited by a series 10 k so a shorted key cannot drag the rail down."
+			(at 220 110 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 220 110 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT3045"
+			(at 220 110 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "U56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 202.22 110.00) (xy 197.14 110.00))
+		(stroke (width 0) (type default))
+		(uuid "c1651489-abb2-5cea-b86e-16631053e52d")
+	)
+	(symbol
+		(lib_id "power:P3V3_ALWAYS")
+		(at 197.14 110.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c312e05d-9fe2-5da3-88d1-c9ce49722695")
+		(property "Reference" "#PWR153"
+			(at 197.14 108.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3_ALWAYS"
+			(at 197.14 112.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 197.14 110.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "#PWR153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 237.78 110.00) (xy 250.48 110.00))
+		(stroke (width 0) (type default))
+		(uuid "742649b3-7da9-54d8-8b31-7390f23e01ae")
+	)
+	(label "TX_ARM_SRC"
+		(at 250.48 110.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "ed21a635-8939-58a1-8d69-d658b15d4e56")
+	)
+	(wire
+		(pts (xy 220.00 106.19) (xy 220.00 101.11))
+		(stroke (width 0) (type default))
+		(uuid "28a177d9-1699-5ebe-b122-ae99af3a93e5")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.00 101.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef7b2121-b5ba-5695-91e1-c839291c5302")
+		(property "Reference" "#PWR154"
+			(at 220.0 99.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.0 103.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.0 101.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "#PWR154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:INA228-U57")
+		(at 220.00 160.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "993f9dbe-01f2-5369-8ea2-30bae9f378b9")
+		(property "Reference" "U57"
+			(at 220 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA228"
+			(at 220 162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 220 160 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/product/INA228"
+			(at 220 160 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "85 V, 20-bit power monitor on the 48 V input and, with a second device, on each PA drain."
+			(at 220 160 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 220 160 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "INA228"
+			(at 220 160 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "U57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 202.22 161.27) (xy 189.52 161.27))
+		(stroke (width 0) (type default))
+		(uuid "6be2e04b-ffd2-52ad-8cef-411d17579bff")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 189.52 161.27 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "cf1f71f9-d0e7-5293-98a7-7ab608ef2850")
+	)
+	(wire
+		(pts (xy 202.22 158.73) (xy 189.52 158.73))
+		(stroke (width 0) (type default))
+		(uuid "729cc901-a165-5461-8c4b-7b92629b6872")
+	)
+	(global_label "P48V_LOAD"
+		(shape bidirectional)
+		(at 189.52 158.73 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "ec93c176-48c1-5568-98c6-ac2c3539e17e")
+	)
+	(wire
+		(pts (xy 237.78 162.54) (xy 250.48 162.54))
+		(stroke (width 0) (type default))
+		(uuid "efb97dfb-5659-56cf-99c5-167244800e86")
+	)
+	(global_label "INA_ALERT"
+		(shape bidirectional)
+		(at 250.48 162.54 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "b524ee2a-33db-5c93-baed-4c2b39f112be")
+	)
+	(wire
+		(pts (xy 237.78 160.00) (xy 250.48 160.00))
+		(stroke (width 0) (type default))
+		(uuid "19d8d5a2-138e-5377-9bcd-679452907226")
+	)
+	(global_label "SEQ_SDA"
+		(shape bidirectional)
+		(at 250.48 160.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c73bc051-c00d-5bf0-b8b1-9f7dd082b023")
+	)
+	(wire
+		(pts (xy 237.78 157.46) (xy 250.48 157.46))
+		(stroke (width 0) (type default))
+		(uuid "bcf0befb-c21e-5dd4-a1d0-2cd8ce9b77b2")
+	)
+	(global_label "SEQ_SCL"
+		(shape bidirectional)
+		(at 250.48 157.46 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "5e47c60e-ae99-55e5-8611-fb409c95579f")
+	)
+	(wire
+		(pts (xy 220.00 166.35) (xy 220.00 171.43))
+		(stroke (width 0) (type default))
+		(uuid "020d0ab5-d966-59cc-baf4-6a377c8393ae")
+	)
+	(symbol
+		(lib_id "power:P3V3")
+		(at 220.00 171.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "796d6d41-e3d1-5589-95c1-574e232f6e68")
+		(property "Reference" "#PWR155"
+			(at 220.0 169.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 220.0 173.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.0 171.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "#PWR155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 220.00 153.65) (xy 220.00 148.57))
+		(stroke (width 0) (type default))
+		(uuid "e26b5b72-d718-56e6-b718-f37c7b371131")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.00 148.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "eabaa42a-fe19-58f1-917e-bd59c54a1d7f")
+		(property "Reference" "#PWR156"
+			(at 220.0 146.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.0 150.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.0 148.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "#PWR156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "LEDs, each one color, series resistor sized for 2 mA: PWR from P3V3-good, AFE from AD9084 IRQ-not, FPGA from done, USB from FX20, LINK from QSFP ModPrsL and link-up, TX only when PA_EN_A or PA_EN_B is high, FAULT from SEQ_FAULT. TX lit means the drain switch is armed, not merely that software set a bit."
+		(at 20.00 210.00 0)
+		(effects (font (size 1.27 1.27)))
+		(uuid "79d8fed4-af63-5bd9-92c8-c7d0dc1e8c7c")
+	)
+	(symbol
+		(lib_id "ultra:2pin-PWR")
+		(at 40.00 240.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77b1abc6-3521-569f-aeb9-c0ddd81dcf0c")
+		(property "Reference" "D4"
+			(at 40 238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 40 242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED PWR"
+			(at 40 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 40 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "single color, 0603"
+			(at 40 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 34.92 240.00) (xy 22.22 240.00))
+		(stroke (width 0) (type default))
+		(uuid "87ea3e62-f1e5-54da-bded-74c3c56dca2f")
+	)
+	(global_label "MON_P3V3"
+		(shape bidirectional)
+		(at 22.22 240.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "e7b30f96-cb82-5fb7-b0f9-ac0f66d56d5c")
+	)
+	(wire
+		(pts (xy 45.08 240.00) (xy 57.78 240.00))
+		(stroke (width 0) (type default))
+		(uuid "41be3ae1-d607-514b-8f57-afcfabb0d186")
+	)
+	(label "GND"
+		(at 57.78 240.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f9ef1a2f-d56e-5a3f-9d02-aa31d51acbb6")
+	)
+	(symbol
+		(lib_id "ultra:2pin-AFE")
+		(at 70.00 240.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9a563e4-e24d-59a3-b94f-10be2c4f43f4")
+		(property "Reference" "D6"
+			(at 70 238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AFE"
+			(at 70 242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED AFE"
+			(at 70 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 70 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "single color, 0603"
+			(at 70 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 64.92 240.00) (xy 52.22 240.00))
+		(stroke (width 0) (type default))
+		(uuid "32dacccf-fc71-5104-9719-9afaeb4026e9")
+	)
+	(global_label "AFE_IRQ"
+		(shape bidirectional)
+		(at 52.22 240.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "36c91308-eddd-519a-9072-32160bb509c0")
+	)
+	(wire
+		(pts (xy 75.08 240.00) (xy 87.78 240.00))
+		(stroke (width 0) (type default))
+		(uuid "b3a59497-6ebc-5491-a25e-b8966aa6fe31")
+	)
+	(label "GND"
+		(at 87.78 240.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "be3b1f83-1a43-5ae7-82cb-8b3f3e6f2b53")
+	)
+	(symbol
+		(lib_id "ultra:2pin-FPGA")
+		(at 100.00 240.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09fc8e5a-1257-5126-acf8-b012b78a258e")
+		(property "Reference" "D8"
+			(at 100 238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FPGA"
+			(at 100 242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED FPGA"
+			(at 100 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 100 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "single color, 0603"
+			(at 100 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 94.92 240.00) (xy 82.22 240.00))
+		(stroke (width 0) (type default))
+		(uuid "e1df3404-f278-5b91-9169-6ebc36c22660")
+	)
+	(global_label "FPGA_DONE"
+		(shape bidirectional)
+		(at 82.22 240.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "606ede1f-5008-51b8-9711-94c88ca9ea5d")
+	)
+	(wire
+		(pts (xy 105.08 240.00) (xy 117.78 240.00))
+		(stroke (width 0) (type default))
+		(uuid "0972c5fc-1702-552e-9241-9e339496da0d")
+	)
+	(label "GND"
+		(at 117.78 240.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f2e463ff-3452-5263-8dbf-f6c8d3c81262")
+	)
+	(symbol
+		(lib_id "ultra:2pin-USB")
+		(at 130.00 240.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22d8b3c4-ed07-5738-bd50-aa3b4b20085d")
+		(property "Reference" "D10"
+			(at 130 238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB"
+			(at 130 242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED USB"
+			(at 130 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 130 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "single color, 0603"
+			(at 130 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 124.92 240.00) (xy 112.22 240.00))
+		(stroke (width 0) (type default))
+		(uuid "40cce778-306b-5254-b424-3de2d3b1d9dd")
+	)
+	(global_label "USB_ENUM"
+		(shape bidirectional)
+		(at 112.22 240.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f0d562a0-f501-51d3-99eb-2f3e2ea57579")
+	)
+	(wire
+		(pts (xy 135.08 240.00) (xy 147.78 240.00))
+		(stroke (width 0) (type default))
+		(uuid "fdf835b1-0d92-53e9-bbef-bda0d083a0f9")
+	)
+	(label "GND"
+		(at 147.78 240.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "e390dbc2-9c5c-53dd-b8f6-72443e4935a3")
+	)
+	(symbol
+		(lib_id "ultra:2pin-LINK")
+		(at 160.00 240.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d30a9b4-cd10-5727-b5b3-493e56993037")
+		(property "Reference" "D12"
+			(at 160 238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LINK"
+			(at 160 242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED LINK"
+			(at 160 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 160 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "single color, 0603"
+			(at 160 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 154.92 240.00) (xy 142.22 240.00))
+		(stroke (width 0) (type default))
+		(uuid "50e60800-f872-5b39-8f15-de2beccd9fd4")
+	)
+	(global_label "QSFP_INT"
+		(shape bidirectional)
+		(at 142.22 240.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "31830b9a-2687-541d-b0ad-c07f874dfacb")
+	)
+	(wire
+		(pts (xy 165.08 240.00) (xy 177.78 240.00))
+		(stroke (width 0) (type default))
+		(uuid "6f47577f-7881-5b7b-bd96-fca0de726c19")
+	)
+	(label "GND"
+		(at 177.78 240.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "858c4d73-bd77-5755-8947-243476f8be85")
+	)
+	(symbol
+		(lib_id "ultra:2pin-TX")
+		(at 190.00 240.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60ce88aa-e0b4-5bfc-9b32-21fd06a0791d")
+		(property "Reference" "D14"
+			(at 190 238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX"
+			(at 190 242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED TX"
+			(at 190 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 190 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "single color, 0603"
+			(at 190 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 184.92 240.00) (xy 172.22 240.00))
+		(stroke (width 0) (type default))
+		(uuid "9e8c7bc9-81b6-5edc-968e-84ff4b1f4a24")
+	)
+	(global_label "PA_EN_A"
+		(shape bidirectional)
+		(at 172.22 240.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "80b37a3a-f486-57cb-9057-fb63dd2b9d28")
+	)
+	(wire
+		(pts (xy 195.08 240.00) (xy 207.78 240.00))
+		(stroke (width 0) (type default))
+		(uuid "fabedc11-2103-500a-8363-c17477fe874c")
+	)
+	(label "GND"
+		(at 207.78 240.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "7916608a-55cf-559f-969e-4fd233e5f391")
+	)
+	(symbol
+		(lib_id "ultra:2pin-FAULT")
+		(at 220.00 240.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a39da0e-5bfb-5856-8744-a3c0628b55fa")
+		(property "Reference" "D16"
+			(at 220 238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FAULT"
+			(at 220 242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED FAULT"
+			(at 220 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 220 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "single color, 0603"
+			(at 220 240 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/382cfe3c-f4f7-5ab0-ada9-b6784f1469d7"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 214.92 240.00) (xy 202.22 240.00))
+		(stroke (width 0) (type default))
+		(uuid "8c00b825-a7eb-591d-8d62-b8687d005cd4")
+	)
+	(global_label "SEQ_FAULT"
+		(shape bidirectional)
+		(at 202.22 240.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "7fc719c7-0806-516f-a3dd-67e513c89cc1")
+	)
+	(wire
+		(pts (xy 225.08 240.00) (xy 237.78 240.00))
+		(stroke (width 0) (type default))
+		(uuid "65dd46b5-4d3b-5b1b-b488-ce8649e0870a")
+	)
+	(label "GND"
+		(at 237.78 240.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "36da7cf0-c742-5a1a-8417-47f5f5a884e3")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

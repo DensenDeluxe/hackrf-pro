@@ -1,0 +1,2882 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b526a517-8e56-5d65-af21-34b0a8b5b9c0")
+	(paper "A2")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+		(comment 2 "Architecture rev 0.1. Not a fabrication package.")
+	)
+	(lib_symbols
+		(symbol "ultra:USB_C-J9"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 18.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C"
+			(at 0 -18.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "USB_C-J9_0_1"
+				(rectangle (start -17.78 -16.51) (end 17.78 16.51)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "USB_C-J9_1_1"
+				(pin passive line
+					(at 17.78 12.70 0)
+					(length 2.54)
+					(name "TX1P" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 10.16 0)
+					(length 2.54)
+					(name "TX1N" (effects (font (size 1.016 1.016))))
+					(number "102" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 7.62 0)
+					(length 2.54)
+					(name "RX1P" (effects (font (size 1.016 1.016))))
+					(number "103" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 5.08 0)
+					(length 2.54)
+					(name "RX1N" (effects (font (size 1.016 1.016))))
+					(number "104" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 2.54 0)
+					(length 2.54)
+					(name "TX2P" (effects (font (size 1.016 1.016))))
+					(number "105" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "TX2N" (effects (font (size 1.016 1.016))))
+					(number "106" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 -2.54 0)
+					(length 2.54)
+					(name "RX2P" (effects (font (size 1.016 1.016))))
+					(number "107" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 -5.08 0)
+					(length 2.54)
+					(name "RX2N" (effects (font (size 1.016 1.016))))
+					(number "108" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 -7.62 0)
+					(length 2.54)
+					(name "CC1" (effects (font (size 1.016 1.016))))
+					(number "109" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 -10.16 0)
+					(length 2.54)
+					(name "CC2" (effects (font (size 1.016 1.016))))
+					(number "110" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 17.78 -12.70 0)
+					(length 2.54)
+					(name "VBUS" (effects (font (size 1.016 1.016))))
+					(number "111" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at -1.27 -16.51 270)
+					(length 2.54)
+					(name "SHIELD" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 1.27 -16.51 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 0.0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol GND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:CYUSB4024-U35"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 14.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CYUSB4024"
+			(at 0 -14.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "CYUSB4024-U35_0_1"
+				(rectangle (start -17.78 -12.70) (end 17.78 12.70)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "CYUSB4024-U35_1_1"
+				(pin bidirectional line
+					(at -17.78 8.89 180)
+					(length 2.54)
+					(name "USB_TX1P" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at -17.78 6.35 180)
+					(length 2.54)
+					(name "USB_TX1N" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at -17.78 3.81 180)
+					(length 2.54)
+					(name "USB_RX1P" (effects (font (size 1.016 1.016))))
+					(number "3" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at -17.78 1.27 180)
+					(length 2.54)
+					(name "USB_RX1N" (effects (font (size 1.016 1.016))))
+					(number "4" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at -17.78 -1.27 180)
+					(length 2.54)
+					(name "USB_TX2P" (effects (font (size 1.016 1.016))))
+					(number "5" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at -17.78 -3.81 180)
+					(length 2.54)
+					(name "USB_TX2N" (effects (font (size 1.016 1.016))))
+					(number "6" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at -17.78 -6.35 180)
+					(length 2.54)
+					(name "USB_RX2P" (effects (font (size 1.016 1.016))))
+					(number "7" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at -17.78 -8.89 180)
+					(length 2.54)
+					(name "USB_RX2N" (effects (font (size 1.016 1.016))))
+					(number "8" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 17.78 6.35 0)
+					(length 2.54)
+					(name "LVDS_CLK_P" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 17.78 3.81 0)
+					(length 2.54)
+					(name "LVDS_CLK_N" (effects (font (size 1.016 1.016))))
+					(number "102" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 17.78 1.27 0)
+					(length 2.54)
+					(name "LVDS_P0" (effects (font (size 1.016 1.016))))
+					(number "103" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 17.78 -1.27 0)
+					(length 2.54)
+					(name "LVDS_P1" (effects (font (size 1.016 1.016))))
+					(number "104" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 17.78 -3.81 0)
+					(length 2.54)
+					(name "LVDS_P2" (effects (font (size 1.016 1.016))))
+					(number "105" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 17.78 -6.35 0)
+					(length 2.54)
+					(name "LVDS_P3" (effects (font (size 1.016 1.016))))
+					(number "106" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 12.70 90)
+					(length 2.54)
+					(name "VDD" (effects (font (size 1.016 1.016))))
+					(number "201" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 1.27 12.70 90)
+					(length 2.54)
+					(name "VDDIO" (effects (font (size 1.016 1.016))))
+					(number "202" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -12.70 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at 1.27 -12.70 270)
+					(length 2.54)
+					(name "FX_CLK" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P1V8"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V8"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V8_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:P3V3"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P3V3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P3V3_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:TPS26750-U36"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS26750"
+			(at 0 -7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "TPS26750-U36_0_1"
+				(rectangle (start -17.78 -6.35) (end 17.78 6.35)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "TPS26750-U36_1_1"
+				(pin bidirectional line
+					(at -17.78 1.27 180)
+					(length 2.54)
+					(name "CC1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at -17.78 -1.27 180)
+					(length 2.54)
+					(name "CC2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 0.8 0.8))))
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 0)
+					(length 2.54)
+					(name "I2C_SDA" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "I2C_SCL" (effects (font (size 1.016 1.016))))
+					(number "102" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at 17.78 -2.54 0)
+					(length 2.54)
+					(name "FAULT" (effects (font (size 1.016 1.016))))
+					(number "103" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 6.35 90)
+					(length 2.54)
+					(name "VBUS_SENSE" (effects (font (size 1.016 1.016))))
+					(number "201" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 1.27 6.35 90)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "202" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 0.00 -6.35 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P3V3_ALWAYS"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3_ALWAYS"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P3V3_ALWAYS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P3V3_ALWAYS_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P3V3_ALWAYS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:TPD4S480-U37"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD4S480"
+			(at 0 -7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "TPD4S480-U37_0_1"
+				(rectangle (start -17.78 -6.35) (end 17.78 6.35)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "TPD4S480-U37_1_1"
+				(pin power_in line
+					(at -17.78 2.54 180)
+					(length 2.54)
+					(name "VBUS_IN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "CC1" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at -17.78 -2.54 180)
+					(length 2.54)
+					(name "CC2" (effects (font (size 1.016 1.016))))
+					(number "3" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 1.27 0)
+					(length 2.54)
+					(name "VBUS_OUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at 17.78 -1.27 0)
+					(length 2.54)
+					(name "GATE" (effects (font (size 1.016 1.016))))
+					(number "102" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 0.00 -6.35 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "ultra:BSC040N10-Q1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSC040N10"
+			(at 0 -6.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "BSC040N10-Q1_0_1"
+				(rectangle (start -17.78 -5.08) (end 17.78 5.08)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "BSC040N10-Q1_1_1"
+				(pin input line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "G" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 1.27 0)
+					(length 2.54)
+					(name "D" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin passive line
+					(at 17.78 -1.27 0)
+					(length 2.54)
+					(name "S" (effects (font (size 1.016 1.016))))
+					(number "102" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "ultra:QSFP_DD-J10"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QSFP_DD"
+			(at 0 -7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "QSFP_DD-J10_0_1"
+				(rectangle (start -17.78 -6.35) (end 17.78 6.35)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "QSFP_DD-J10_1_1"
+				(pin input line
+					(at -17.78 2.54 180)
+					(length 2.54)
+					(name "TX_P0" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "RX_P0" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at -17.78 -2.54 180)
+					(length 2.54)
+					(name "MODSEL" (effects (font (size 1.016 1.016))))
+					(number "3" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 0.00 6.35 90)
+					(length 2.54)
+					(name "VCC" (effects (font (size 1.016 1.016))))
+					(number "201" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -2.54 -6.35 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at 0.00 -6.35 270)
+					(length 2.54)
+					(name "INT" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 2.54 -6.35 270)
+					(length 2.54)
+					(name "RESET" (effects (font (size 1.016 1.016))))
+					(number "303" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "ultra:QSFP_DD-J11"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QSFP_DD"
+			(at 0 -7.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "QSFP_DD-J11_0_1"
+				(rectangle (start -17.78 -6.35) (end 17.78 6.35)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "QSFP_DD-J11_1_1"
+				(pin input line
+					(at -17.78 2.54 180)
+					(length 2.54)
+					(name "TX_P0" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "RX_P0" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at -17.78 -2.54 180)
+					(length 2.54)
+					(name "MODSEL" (effects (font (size 1.016 1.016))))
+					(number "3" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 0.00 6.35 90)
+					(length 2.54)
+					(name "VCC" (effects (font (size 1.016 1.016))))
+					(number "201" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -2.54 -6.35 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin output line
+					(at 0.00 -6.35 270)
+					(length 2.54)
+					(name "INT" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 2.54 -6.35 270)
+					(length 2.54)
+					(name "RESET" (effects (font (size 1.016 1.016))))
+					(number "303" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+	)
+	(text "Two host ports. USB-C is a 20 Gbit/s device (FX20), the way a HackRF is a peripheral. QSFP-DD is 400GbE, because a 10 GHz instantaneous bandwidth at 12-bit complex is about 240 Gbit/s and does not fit in USB. FX20 LVDS is FPGA-to-host only. Host-to-FPGA samples on USB use the 32-bit LVCMOS bus at about 5 Gbit/s."
+		(at 20.00 18.00 0)
+		(effects (font (size 1.4 1.4)))
+		(uuid "827ef25b-21b8-55f9-af16-e08de43173b5")
+	)
+	(symbol
+		(lib_id "ultra:USB_C-J9")
+		(at 40.00 70.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aea3394-d75e-5882-8720-a8f534eb0e3f")
+		(property "Reference" "J9"
+			(at 40 68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C"
+			(at 40 72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 40 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.2 Gen 2x2 receptacle. SuperSpeed pairs are 90 ohm. Shield bonded to chassis at one point."
+			(at 40 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 40 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "USB Type-C 24-pin, mid-mount, 20 Gbit/s capable shell"
+			(at 40 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 57.78 82.70) (xy 70.48 82.70))
+		(stroke (width 0) (type default))
+		(uuid "e89e06ff-7b83-54e3-b478-89141a919197")
+	)
+	(label "USBC_TX1P"
+		(at 70.48 82.70 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "bf2f4217-a795-5f3a-9627-2b4443aa935d")
+	)
+	(wire
+		(pts (xy 57.78 80.16) (xy 70.48 80.16))
+		(stroke (width 0) (type default))
+		(uuid "d1bbaddd-6990-5604-a4e2-50f001537c1e")
+	)
+	(label "USBC_TX1N"
+		(at 70.48 80.16 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "8df2574f-8457-5435-a487-286a494a50f0")
+	)
+	(wire
+		(pts (xy 57.78 77.62) (xy 70.48 77.62))
+		(stroke (width 0) (type default))
+		(uuid "727d0cbf-f4cb-5e89-83de-af3c947f948e")
+	)
+	(label "USBC_RX1P"
+		(at 70.48 77.62 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "6cfa55f3-7e1a-553d-9fc5-7aec3fa82bd7")
+	)
+	(wire
+		(pts (xy 57.78 75.08) (xy 70.48 75.08))
+		(stroke (width 0) (type default))
+		(uuid "66819186-8744-5ce8-8c28-589a1292d8c1")
+	)
+	(label "USBC_RX1N"
+		(at 70.48 75.08 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f430577d-85a1-5cbf-a4de-5c994da9ed9b")
+	)
+	(wire
+		(pts (xy 57.78 72.54) (xy 70.48 72.54))
+		(stroke (width 0) (type default))
+		(uuid "08fc4cec-3c93-525d-87c3-27df16d69127")
+	)
+	(label "USBC_TX2P"
+		(at 70.48 72.54 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "4b1be3d9-63cd-5341-b697-14e77d1834dd")
+	)
+	(wire
+		(pts (xy 57.78 70.00) (xy 70.48 70.00))
+		(stroke (width 0) (type default))
+		(uuid "95f83149-bc05-5dfa-bc58-c69e1828b47f")
+	)
+	(label "USBC_TX2N"
+		(at 70.48 70.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "734f7470-5d2e-5270-80b5-b30286106eb5")
+	)
+	(wire
+		(pts (xy 57.78 67.46) (xy 70.48 67.46))
+		(stroke (width 0) (type default))
+		(uuid "d7eb88fc-58a4-57ba-807d-f17ae0313fcf")
+	)
+	(label "USBC_RX2P"
+		(at 70.48 67.46 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "ce2eb33e-18a6-5d2c-bc76-045cd180cc58")
+	)
+	(wire
+		(pts (xy 57.78 64.92) (xy 70.48 64.92))
+		(stroke (width 0) (type default))
+		(uuid "7725d542-d6db-5650-8c6b-4a994d9bf731")
+	)
+	(label "USBC_RX2N"
+		(at 70.48 64.92 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "4a29ee7b-189b-5bce-ad91-83d78592cdea")
+	)
+	(wire
+		(pts (xy 57.78 62.38) (xy 70.48 62.38))
+		(stroke (width 0) (type default))
+		(uuid "a5971a92-2131-503e-9f6c-a466868ddfc9")
+	)
+	(label "USBC_CC1"
+		(at 70.48 62.38 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "d045cd6f-0e81-55cd-b0f7-0c266f1cdcaa")
+	)
+	(wire
+		(pts (xy 57.78 59.84) (xy 70.48 59.84))
+		(stroke (width 0) (type default))
+		(uuid "0d121349-5048-5efa-92ae-b13637f1ad51")
+	)
+	(label "USBC_CC2"
+		(at 70.48 59.84 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "eeacc69e-cd14-5919-a273-d97264b0d049")
+	)
+	(wire
+		(pts (xy 57.78 57.30) (xy 70.48 57.30))
+		(stroke (width 0) (type default))
+		(uuid "c1ac7721-d3d8-5409-abfe-78c33d25507b")
+	)
+	(label "VBUS_CONNECTOR"
+		(at 70.48 57.30 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "1db57e67-d389-5b31-96e8-9f381a97d4bb")
+	)
+	(wire
+		(pts (xy 41.27 53.49) (xy 41.27 48.41))
+		(stroke (width 0) (type default))
+		(uuid "0e35455a-dd66-5e92-a83d-6f2ccbd0e759")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.27 48.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f9a7eb2-5bbf-5b13-b176-0a59184efa1a")
+		(property "Reference" "#PWR97"
+			(at 41.27 46.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.27 50.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.27 48.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 38.73 53.49) (xy 38.73 48.41))
+		(stroke (width 0) (type default))
+		(uuid "6ac18b7c-f14b-5dd9-a923-065b247f05a9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.73 48.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4278f509-d053-572b-98b6-863ad5c425a1")
+		(property "Reference" "#PWR98"
+			(at 38.73 46.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.73 50.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.73 48.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:CYUSB4024-U35")
+		(at 150.00 90.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c904a39a-587a-56ee-88dc-a1741e7b6249")
+		(property "Reference" "U35"
+			(at 150 88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CYUSB4024"
+			(at 150 92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 150 90 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/products/universal-serial-bus/usb-3-2-peripheral-controllers/ez-usb-fx20-usb-20-gbps-peripheral-controller"
+			(at 150 90 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "EZ-USB FX20, USB 3.2 Gen 2x2 device, 169-ball. Orientation and lane polarity are corrected inside the PHY. Payload about 17.6 Gbit/s."
+			(at 150 90 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 150 90 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CYUSB4024, 16-lane LVDS variant, ordering code from datasheet 002-33684 Rev J"
+			(at 150 90 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "U35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 132.22 98.89) (xy 119.52 98.89))
+		(stroke (width 0) (type default))
+		(uuid "6ef47d2b-065e-50d5-91a4-a107a33b91af")
+	)
+	(label "USBC_TX1P"
+		(at 119.52 98.89 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "c8c4957e-c35b-5956-b349-8f9fe9fb0a5e")
+	)
+	(wire
+		(pts (xy 132.22 96.35) (xy 119.52 96.35))
+		(stroke (width 0) (type default))
+		(uuid "8f7f178a-4b73-564c-b4f7-27dcc45a3b3e")
+	)
+	(label "USBC_TX1N"
+		(at 119.52 96.35 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "ef50acca-0a48-5a2b-8c9c-4f4effd0b267")
+	)
+	(wire
+		(pts (xy 132.22 93.81) (xy 119.52 93.81))
+		(stroke (width 0) (type default))
+		(uuid "960a558a-9c36-5e38-947d-e973b2c9d946")
+	)
+	(label "USBC_RX1P"
+		(at 119.52 93.81 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "1031f1c0-e5b6-59b8-865e-f08cea9b7e8d")
+	)
+	(wire
+		(pts (xy 132.22 91.27) (xy 119.52 91.27))
+		(stroke (width 0) (type default))
+		(uuid "47b76dff-77e5-5857-b278-db4b409926a9")
+	)
+	(label "USBC_RX1N"
+		(at 119.52 91.27 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "2741f6a4-eccc-5ada-9b06-fe549a01a13f")
+	)
+	(wire
+		(pts (xy 132.22 88.73) (xy 119.52 88.73))
+		(stroke (width 0) (type default))
+		(uuid "fc9b8746-8f77-5b39-8c4b-9ec62898b350")
+	)
+	(label "USBC_TX2P"
+		(at 119.52 88.73 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "44a0b5ce-33de-55d8-a25a-b3530eceedf9")
+	)
+	(wire
+		(pts (xy 132.22 86.19) (xy 119.52 86.19))
+		(stroke (width 0) (type default))
+		(uuid "16ea3e04-6720-5def-a549-8b177483f9d1")
+	)
+	(label "USBC_TX2N"
+		(at 119.52 86.19 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "e26751d7-99a8-5173-af3d-26f553de2f39")
+	)
+	(wire
+		(pts (xy 132.22 83.65) (xy 119.52 83.65))
+		(stroke (width 0) (type default))
+		(uuid "708c8e83-1579-583b-953a-a2836d504fac")
+	)
+	(label "USBC_RX2P"
+		(at 119.52 83.65 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "0530fa00-9ca8-5495-883c-fbd9eb19f8c1")
+	)
+	(wire
+		(pts (xy 132.22 81.11) (xy 119.52 81.11))
+		(stroke (width 0) (type default))
+		(uuid "47db6bc4-0871-5fef-91ed-bcdec318e1aa")
+	)
+	(label "USBC_RX2N"
+		(at 119.52 81.11 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "326a1397-b239-51f0-ba2a-7105dbb7dd73")
+	)
+	(wire
+		(pts (xy 167.78 96.35) (xy 180.48 96.35))
+		(stroke (width 0) (type default))
+		(uuid "f1aea7d3-88cf-59b3-9166-f21ce9b4dc3f")
+	)
+	(global_label "LVDS_CLK_P"
+		(shape bidirectional)
+		(at 180.48 96.35 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "8c440b5f-785d-5f31-8147-2bbe1482f469")
+	)
+	(wire
+		(pts (xy 167.78 93.81) (xy 180.48 93.81))
+		(stroke (width 0) (type default))
+		(uuid "a10cd6ce-caac-5339-bd71-e371fdb2f4c8")
+	)
+	(global_label "LVDS_CLK_N"
+		(shape bidirectional)
+		(at 180.48 93.81 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "1ba462ba-068c-586b-9d37-3410ca6cb2ba")
+	)
+	(wire
+		(pts (xy 167.78 91.27) (xy 180.48 91.27))
+		(stroke (width 0) (type default))
+		(uuid "50da9677-b0ac-5a7f-9e4b-3fbd5ebb0e91")
+	)
+	(global_label "LVDS_P0"
+		(shape bidirectional)
+		(at 180.48 91.27 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "d9164ae1-857d-557d-8d1c-8c745e9840c0")
+	)
+	(wire
+		(pts (xy 167.78 88.73) (xy 180.48 88.73))
+		(stroke (width 0) (type default))
+		(uuid "0ac9148c-7797-574c-a348-60239dec2b2e")
+	)
+	(global_label "LVDS_P1"
+		(shape bidirectional)
+		(at 180.48 88.73 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "7a676933-c58d-5d8b-88df-1ec65bbaef78")
+	)
+	(wire
+		(pts (xy 167.78 86.19) (xy 180.48 86.19))
+		(stroke (width 0) (type default))
+		(uuid "8b9cd60b-1e82-5052-9199-49bf0550d5ce")
+	)
+	(global_label "LVDS_P2"
+		(shape bidirectional)
+		(at 180.48 86.19 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "5987f213-6da0-57ea-a7dc-1456da619bc1")
+	)
+	(wire
+		(pts (xy 167.78 83.65) (xy 180.48 83.65))
+		(stroke (width 0) (type default))
+		(uuid "1b8452c9-5d22-58e7-a279-c22f396834e8")
+	)
+	(global_label "LVDS_P3"
+		(shape bidirectional)
+		(at 180.48 83.65 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c3db80ea-d170-591f-8ba6-cd41b9ce2fb3")
+	)
+	(wire
+		(pts (xy 151.27 77.30) (xy 151.27 69.68))
+		(stroke (width 0) (type default))
+		(uuid "6c1eebf6-b04e-5ae8-826a-c88cb0c3604c")
+	)
+	(global_label "FX_CLK"
+		(shape bidirectional)
+		(at 151.27 69.68 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "59bcbcb0-be9e-511b-9a0c-7a001ad29694")
+	)
+	(wire
+		(pts (xy 148.73 102.70) (xy 148.73 107.78))
+		(stroke (width 0) (type default))
+		(uuid "cf9a7235-e87d-5450-9815-09b4a56416b5")
+	)
+	(symbol
+		(lib_id "power:P1V8")
+		(at 148.73 107.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "82b941a1-5496-57f7-9e1d-f1abdd6d70eb")
+		(property "Reference" "#PWR99"
+			(at 148.73 105.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V8"
+			(at 148.73 109.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.73 107.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 151.27 102.70) (xy 151.27 107.78))
+		(stroke (width 0) (type default))
+		(uuid "fbc0417b-3411-544f-9189-ae178cd42549")
+	)
+	(symbol
+		(lib_id "power:P3V3")
+		(at 151.27 107.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b24c519-7526-5d26-87ce-9f1829219afd")
+		(property "Reference" "#PWR100"
+			(at 151.27 105.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 151.27 109.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.27 107.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 148.73 77.30) (xy 148.73 72.22))
+		(stroke (width 0) (type default))
+		(uuid "c804930c-d977-594d-bb6a-ba4965e641e1")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.73 72.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c09b97e-10a5-5c94-9c3f-a1c3506cc251")
+		(property "Reference" "#PWR101"
+			(at 148.73 70.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.73 74.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.73 72.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:TPS26750-U36")
+		(at 150.00 200.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79218de3-90cb-5ff1-98d8-e8e2ffc71a22")
+		(property "Reference" "U36"
+			(at 150 198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS26750"
+			(at 150 202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 150 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/product/TPS26750"
+			(at 150 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-PD 3.1 EPR sink and source controller. Negotiates up to 48 V / 5 A. Dead-battery Rd is internal. The 48 V power path is NOT the internal 5 V switch."
+			(at 150 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 150 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPS26750"
+			(at 150 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "U36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 132.22 201.27) (xy 119.52 201.27))
+		(stroke (width 0) (type default))
+		(uuid "ffbf7d66-8f2b-5cfc-8e19-e40b7864b474")
+	)
+	(label "USBC_CC1"
+		(at 119.52 201.27 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "a7a09587-c2e5-5b9e-ad67-3b096848f3ac")
+	)
+	(wire
+		(pts (xy 132.22 198.73) (xy 119.52 198.73))
+		(stroke (width 0) (type default))
+		(uuid "8c8e5dfc-cce2-5f30-8b3a-22cd8ce911ed")
+	)
+	(label "USBC_CC2"
+		(at 119.52 198.73 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "1c47c3c5-ff59-5759-81ce-9d6d47094959")
+	)
+	(wire
+		(pts (xy 148.73 206.35) (xy 148.73 213.97))
+		(stroke (width 0) (type default))
+		(uuid "86390744-bdd0-5b45-8098-416465722cbd")
+	)
+	(label "VBUS_SENSE"
+		(at 148.73 213.97 90)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c273d77f-0763-58d4-bea2-b9f8b19a2fe3")
+	)
+	(wire
+		(pts (xy 151.27 206.35) (xy 151.27 211.43))
+		(stroke (width 0) (type default))
+		(uuid "75c18ecb-2b55-5840-b30f-9276eb42c26c")
+	)
+	(symbol
+		(lib_id "power:P3V3_ALWAYS")
+		(at 151.27 211.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "161d8b0b-8691-5524-835f-db65e6a5a4e1")
+		(property "Reference" "#PWR102"
+			(at 151.27 209.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3_ALWAYS"
+			(at 151.27 213.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.27 211.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 150.00 193.65) (xy 150.00 188.57))
+		(stroke (width 0) (type default))
+		(uuid "b0acb22d-7ee5-565e-a6f6-a7a68fe17cf4")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 150.00 188.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2c78b0d-c927-5621-9aad-9f2703d0b877")
+		(property "Reference" "#PWR103"
+			(at 150.0 186.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 150.0 190.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.0 188.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 167.78 202.54) (xy 180.48 202.54))
+		(stroke (width 0) (type default))
+		(uuid "3a2ac183-c829-5141-941a-6dc6c7b592e3")
+	)
+	(global_label "PD_SDA"
+		(shape bidirectional)
+		(at 180.48 202.54 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "56cc8d27-8dc8-56d8-83b0-cead46921fc8")
+	)
+	(wire
+		(pts (xy 167.78 200.00) (xy 180.48 200.00))
+		(stroke (width 0) (type default))
+		(uuid "46067901-3ae2-5e4d-a709-805d18a8b925")
+	)
+	(global_label "PD_SCL"
+		(shape bidirectional)
+		(at 180.48 200.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "057848d5-3967-589e-a4f8-b946da550353")
+	)
+	(wire
+		(pts (xy 167.78 197.46) (xy 180.48 197.46))
+		(stroke (width 0) (type default))
+		(uuid "46a233ac-e8c9-58ea-a0d2-b9b79b184da1")
+	)
+	(global_label "PD_FAULT"
+		(shape bidirectional)
+		(at 180.48 197.46 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "648b0825-e367-54b4-9936-b48b98bedaed")
+	)
+	(symbol
+		(lib_id "ultra:TPD4S480-U37")
+		(at 40.00 200.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9437c93-c8eb-5911-9fa7-232a09c73a1a")
+		(property "Reference" "U37"
+			(at 40 198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD4S480"
+			(at 40 202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 40 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/product/TPD4S480"
+			(at 40 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "48 V EPR protection and CC short-to-VBUS. Gate drive for the external sink FET. Follow TI TIDT407; do not connect raw 48 V to the TPS26750 VBUS pin."
+			(at 40 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 40 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPD4S480"
+			(at 40 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "U37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 22.22 202.54) (xy 9.52 202.54))
+		(stroke (width 0) (type default))
+		(uuid "df302b9c-a77f-5037-9f74-7ca1149d458b")
+	)
+	(label "VBUS_CONNECTOR"
+		(at 9.52 202.54 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "66636546-aaab-5095-ae21-d7f7d434906d")
+	)
+	(wire
+		(pts (xy 22.22 200.00) (xy 9.52 200.00))
+		(stroke (width 0) (type default))
+		(uuid "e893899d-0ecb-59ec-bcc5-577d6adbeb7d")
+	)
+	(label "USBC_CC1"
+		(at 9.52 200.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "a55507d2-3d5b-5a1a-b0f8-ac5b547a0f25")
+	)
+	(wire
+		(pts (xy 22.22 197.46) (xy 9.52 197.46))
+		(stroke (width 0) (type default))
+		(uuid "1ba4a563-8f2c-5b84-b199-18f94b5b6924")
+	)
+	(label "USBC_CC2"
+		(at 9.52 197.46 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "d99e2090-7c9c-5da7-baee-e3099c9d2146")
+	)
+	(wire
+		(pts (xy 57.78 201.27) (xy 70.48 201.27))
+		(stroke (width 0) (type default))
+		(uuid "8767c5b4-6172-53bf-b4eb-d74485c4dc3e")
+	)
+	(label "VBUS_SENSE"
+		(at 70.48 201.27 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "4cab40aa-27d5-5de8-a181-fea69e9d237a")
+	)
+	(wire
+		(pts (xy 57.78 198.73) (xy 70.48 198.73))
+		(stroke (width 0) (type default))
+		(uuid "5ff8f91c-b1e7-53b8-bb4a-58707d3ebb8a")
+	)
+	(label "SINK_GATE"
+		(at 70.48 198.73 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "bd4fd23b-53e4-5c10-97ad-82e042a88011")
+	)
+	(wire
+		(pts (xy 40.00 193.65) (xy 40.00 188.57))
+		(stroke (width 0) (type default))
+		(uuid "d8a6b266-5875-5867-bb10-b1be1033c234")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.00 188.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ba9f378-e7af-5e99-aba9-926441d87312")
+		(property "Reference" "#PWR104"
+			(at 40.0 186.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.0 190.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.0 188.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:BSC040N10-Q1")
+		(at 250.00 200.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e70c735-3bf9-5ea1-866d-3ce33a94d4a6")
+		(property "Reference" "Q1"
+			(at 250 198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSC040N10"
+			(at 250 202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 250 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 V sink MOSFET in the EPR path. Gate network, back-to-back arrangement and inrush are the TIDT407 circuit."
+			(at 250 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 250 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BSC040N10NS5"
+			(at 250 200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 232.22 200.00) (xy 219.52 200.00))
+		(stroke (width 0) (type default))
+		(uuid "41eca54f-d424-5577-a427-100acc36b4f5")
+	)
+	(label "SINK_GATE"
+		(at 219.52 200.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right)
+		)
+		(uuid "b297a2df-71e0-59a4-9c56-64d91c7dce9e")
+	)
+	(wire
+		(pts (xy 267.78 201.27) (xy 280.48 201.27))
+		(stroke (width 0) (type default))
+		(uuid "420d87af-0c53-5af5-83a4-2c96e4aeeafe")
+	)
+	(label "VBUS_CONNECTOR"
+		(at 280.48 201.27 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "520e2ec1-04fc-51e3-bdf5-c74321c12782")
+	)
+	(wire
+		(pts (xy 267.78 198.73) (xy 280.48 198.73))
+		(stroke (width 0) (type default))
+		(uuid "63ebf418-78d3-5ef1-8b43-09f70d6f41f4")
+	)
+	(global_label "P48V_USB"
+		(shape bidirectional)
+		(at 280.48 198.73 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c0f1c98b-ea5a-56eb-9781-37e9f6a53e7f")
+	)
+	(symbol
+		(lib_id "ultra:QSFP_DD-J10")
+		(at 360.00 80.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9084f1a-7cc1-52d0-8dde-bc1bab0c1bc1")
+		(property "Reference" "J10"
+			(at 360 78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QSFP_DD"
+			(at 360 82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 360 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400GbE. Four 112 Gbit/s PAM4 lanes each way, driven by Versal GTM. Heatsink is part of the cage. ModPrsL, IntL, ResetL per SFF-8636 / CMIS."
+			(at 360 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 360 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "QSFP-DD cage and connector, 400G"
+			(at 360 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 342.22 82.54) (xy 329.52 82.54))
+		(stroke (width 0) (type default))
+		(uuid "16157001-b39d-5d37-86de-71b2eb549993")
+	)
+	(global_label "QSFP_TX_P0"
+		(shape bidirectional)
+		(at 329.52 82.54 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "e13f2596-b556-56a4-b6b5-1ee93968c30a")
+	)
+	(wire
+		(pts (xy 342.22 80.00) (xy 329.52 80.00))
+		(stroke (width 0) (type default))
+		(uuid "6bf8aa1b-c2ca-53f9-af0c-3e60cd1e2b0e")
+	)
+	(global_label "QSFP_RX_P0"
+		(shape bidirectional)
+		(at 329.52 80.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "1018ce66-a8f5-5ee2-82cf-b5c7ef912116")
+	)
+	(wire
+		(pts (xy 342.22 77.46) (xy 329.52 77.46))
+		(stroke (width 0) (type default))
+		(uuid "ecc62894-4aa3-554d-b663-8bbed4b3e75e")
+	)
+	(global_label "QSFP_MODSEL"
+		(shape bidirectional)
+		(at 329.52 77.46 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f67c9ec3-a545-56a2-a4a0-e944bc12184a")
+	)
+	(wire
+		(pts (xy 360.00 86.35) (xy 360.00 91.43))
+		(stroke (width 0) (type default))
+		(uuid "ff5f634d-20db-5532-a09e-12c6f580951a")
+	)
+	(symbol
+		(lib_id "power:P3V3")
+		(at 360.00 91.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "62051130-cfc9-5287-b175-c6f8b6462991")
+		(property "Reference" "#PWR105"
+			(at 360.0 89.42999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 360.0 93.42999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.0 91.42999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 357.46 73.65) (xy 357.46 68.57))
+		(stroke (width 0) (type default))
+		(uuid "446ebaa3-479d-559c-854f-5f3eaa5f69d8")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 357.46 68.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3976485c-e88b-541e-a6d2-b6080d406f22")
+		(property "Reference" "#PWR106"
+			(at 357.46 66.57000000000001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 357.46 70.57000000000001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 357.46 68.57000000000001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 360.00 73.65) (xy 360.00 66.03))
+		(stroke (width 0) (type default))
+		(uuid "dfa34971-afa9-5232-8f55-a77190253c0e")
+	)
+	(global_label "QSFP_INT"
+		(shape bidirectional)
+		(at 360.00 66.03 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "d907c3ed-bd8e-51df-81fc-2398b232e4b5")
+	)
+	(wire
+		(pts (xy 362.54 73.65) (xy 362.54 66.03))
+		(stroke (width 0) (type default))
+		(uuid "cbf5fbc6-7a91-5b67-8651-dcad6ee45099")
+	)
+	(global_label "QSFP_RESET"
+		(shape bidirectional)
+		(at 362.54 66.03 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "709dd3de-dc5c-5217-a3b3-197b28ca793b")
+	)
+	(symbol
+		(lib_id "ultra:QSFP_DD-J11")
+		(at 360.00 140.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0127a6c-c4f9-57ba-9679-eeee56522b11")
+		(property "Reference" "J11"
+			(at 360 138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QSFP_DD"
+			(at 360 142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 360 140 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360 140 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Second 400GbE port. Both channels at 10 GHz IBW do not fit in one 400G link."
+			(at 360 140 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 360 140 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "QSFP-DD cage and connector, 400G, second port"
+			(at 360 140 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 342.22 142.54) (xy 329.52 142.54))
+		(stroke (width 0) (type default))
+		(uuid "b00f99b0-b1d8-5e4d-98e5-88e1100bee49")
+	)
+	(global_label "QSFP2_TX_P0"
+		(shape bidirectional)
+		(at 329.52 142.54 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "b9299c75-480c-5122-9d7d-5a2b93d2b12c")
+	)
+	(wire
+		(pts (xy 342.22 140.00) (xy 329.52 140.00))
+		(stroke (width 0) (type default))
+		(uuid "b44a3ac9-c691-5ff9-8874-718992e58a29")
+	)
+	(global_label "QSFP2_RX_P0"
+		(shape bidirectional)
+		(at 329.52 140.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "0e384c92-ab19-5765-8b52-9fc034ac1409")
+	)
+	(wire
+		(pts (xy 342.22 137.46) (xy 329.52 137.46))
+		(stroke (width 0) (type default))
+		(uuid "a322b2f3-f8c4-5c82-923f-86fc24d19044")
+	)
+	(global_label "QSFP2_MODSEL"
+		(shape bidirectional)
+		(at 329.52 137.46 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "13aa15ce-8740-5a26-82ee-e2322ab1f0bf")
+	)
+	(wire
+		(pts (xy 360.00 146.35) (xy 360.00 151.43))
+		(stroke (width 0) (type default))
+		(uuid "d60f1c7c-67cf-5eb3-b0c9-0b7cdd88f0a1")
+	)
+	(symbol
+		(lib_id "power:P3V3")
+		(at 360.00 151.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d679313d-cf15-58b4-806e-15ffbaf924c7")
+		(property "Reference" "#PWR107"
+			(at 360.0 149.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 360.0 153.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.0 151.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 357.46 133.65) (xy 357.46 128.57))
+		(stroke (width 0) (type default))
+		(uuid "e632405a-9b11-5aa2-986f-7ea84085783a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 357.46 128.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2064bf3-d908-5612-9539-69c0731ad41b")
+		(property "Reference" "#PWR108"
+			(at 357.46 126.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 357.46 130.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 357.46 128.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/b526a517-8e56-5d65-af21-34b0a8b5b9c0"
+					(reference "#PWR108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 360.00 133.65) (xy 360.00 126.03))
+		(stroke (width 0) (type default))
+		(uuid "4d8a3986-7b66-5db6-a581-208ede134f32")
+	)
+	(global_label "QSFP2_INT"
+		(shape bidirectional)
+		(at 360.00 126.03 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "51e5fb47-1116-5145-87d2-0cb5abbc31a8")
+	)
+	(wire
+		(pts (xy 362.54 133.65) (xy 362.54 126.03))
+		(stroke (width 0) (type default))
+		(uuid "4e030ebe-6639-5ba8-ba69-cdddad2684d2")
+	)
+	(global_label "QSFP2_RESET"
+		(shape bidirectional)
+		(at 362.54 126.03 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "1769d214-bc20-536a-9d16-64d1b10e9653")
+	)
+	(text "Lanes QSFP_TX_P1..3, QSFP_TX_N0..3, QSFP_RX_P1..3, QSFP_RX_N0..3 and the same names with a QSFP2_ prefix are global nets. A retimer footprint (Broadcom 400G class) is placed and left unstuffed unless the channel simulation misses the eye. Short route, Megtron 8 stripline, backdrill, no nickel on these pairs (EPIG)."
+		(at 20.00 250.00 0)
+		(effects (font (size 1.27 1.27)))
+		(uuid "0799d850-2f0f-5d55-a4d5-26090665ae4d")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

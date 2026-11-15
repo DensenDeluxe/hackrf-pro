@@ -1,0 +1,893 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general (thickness 2.2) (legacy_teardrops no))
+	(paper "A3")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "Architecture carrier. No copper pours, no BGA lands, do not fabricate.")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(4 "In1.Cu" power)
+		(6 "In2.Cu" signal)
+		(8 "In3.Cu" signal)
+		(10 "In4.Cu" power)
+		(12 "In5.Cu" signal)
+		(14 "In6.Cu" signal)
+		(16 "In7.Cu" signal)
+		(18 "In8.Cu" power)
+		(20 "In9.Cu" power)
+		(22 "In10.Cu" signal)
+		(24 "In11.Cu" power)
+		(26 "In12.Cu" signal)
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(19 "Cmts.User" user "User.Comments")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS" (type "Top Silk Screen") (color "White"))
+			(layer "F.Paste" (type "Top Solder Paste"))
+			(layer "F.Mask" (type "Top Solder Mask") (color "Green") (thickness 0.015) (material "LPI"))
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 0.127)
+				(material "RO3003")
+				(epsilon_r 3.0)
+				(loss_tangent 0.001)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 0.1)
+				(material "Megtron 8 prepreg")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 3"
+				(type "core")
+				(thickness 0.2)
+				(material "Megtron 8 core")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In3.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 4"
+				(type "core")
+				(thickness 0.1)
+				(material "Megtron 8 prepreg")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In4.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 5"
+				(type "core")
+				(thickness 0.2)
+				(material "Megtron 8 core")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In5.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 6"
+				(type "core")
+				(thickness 0.1)
+				(material "Megtron 8 prepreg")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In6.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 7"
+				(type "core")
+				(thickness 0.2)
+				(material "Megtron 8 core")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In7.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 8"
+				(type "core")
+				(thickness 0.1)
+				(material "Megtron 8 prepreg")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In8.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 9"
+				(type "core")
+				(thickness 0.2)
+				(material "Megtron 8 core")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In9.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 10"
+				(type "core")
+				(thickness 0.1)
+				(material "Megtron 8 prepreg")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In10.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 11"
+				(type "core")
+				(thickness 0.2)
+				(material "Megtron 8 core")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In11.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 12"
+				(type "core")
+				(thickness 0.1)
+				(material "Megtron 8 prepreg")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "In12.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "dielectric 13"
+				(type "core")
+				(thickness 0.2)
+				(material "Megtron 8 core")
+				(epsilon_r 3.1)
+				(loss_tangent 0.0014)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.017)
+			)
+			(layer "B.Mask" (type "Bottom Solder Mask") (color "Green") (thickness 0.015) (material "LPI"))
+			(layer "B.Paste" (type "Bottom Solder Paste"))
+			(layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
+			(copper_finish "EPIG")
+			(dielectric_constraints yes)
+		)
+		(pad_to_mask_clearance 0.05)
+		(allow_blind_buried_vias yes)
+		(allow_microvias yes)
+		(tenting front back)
+	)
+	(gr_line
+		(start 0 0) (end 280 0)
+		(stroke (width 0.1) (type solid))
+		(layer "Edge.Cuts")
+		(uuid "5f2a666a-6fb8-5068-b2c0-476216cf987c")
+	)
+	(gr_line
+		(start 280 0) (end 280 190)
+		(stroke (width 0.1) (type solid))
+		(layer "Edge.Cuts")
+		(uuid "76d4d3de-85da-5e67-97a4-c5f9fbd8aaf1")
+	)
+	(gr_line
+		(start 280 190) (end 0 190)
+		(stroke (width 0.1) (type solid))
+		(layer "Edge.Cuts")
+		(uuid "3ca38f18-05f5-551f-b520-6cd68da6fcc7")
+	)
+	(gr_line
+		(start 0 190) (end 0 0)
+		(stroke (width 0.1) (type solid))
+		(layer "Edge.Cuts")
+		(uuid "c8207dc1-d80b-5a7e-b721-c178cec7dad2")
+	)
+	(gr_text "HACKRF ULTRA  0.1.0-arch   NICHT FERTIGEN"
+		(at 20 8 0)
+		(layer "F.SilkS")
+		(uuid "e45b2dc3-f534-5737-bf67-e6c18740a8fd")
+		(effects (font (size 2.0 2.0) (thickness 0.15)))
+	)
+	(gr_text "14L  RO3003 + Megtron 8  EPIG  VIPPO  backdrill  IPC-6018 class 3"
+		(at 20 14 0)
+		(layer "F.SilkS")
+		(uuid "05bb0faf-e4da-55e7-b84a-68726fb64e69")
+		(effects (font (size 1.2 1.2) (thickness 0.15)))
+	)
+	(gr_line
+		(start 8 20) (end 70 20)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "7363bf97-6e95-5bb4-b21e-c97f67a2f48e")
+	)
+	(gr_line
+		(start 70 20) (end 70 100)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "b419f837-eb7f-5827-ab6b-8b37b74bda5b")
+	)
+	(gr_line
+		(start 70 100) (end 8 100)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "c6c9d7b4-b5a1-5c4e-b7ba-7ee3bb21c383")
+	)
+	(gr_line
+		(start 8 100) (end 8 20)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "8e996304-6535-5c9f-889c-869e075a129e")
+	)
+	(gr_text "RX A  cavity"
+		(at 10 24 0)
+		(layer "Cmts.User")
+		(uuid "15c33b40-5618-5241-9b35-c78d0cab3c5d")
+		(effects (font (size 1.2 1.2) (thickness 0.15)))
+	)
+	(gr_line
+		(start 8 105) (end 70 105)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "bb29f8fe-fa45-54ec-91ef-816fb21c877c")
+	)
+	(gr_line
+		(start 70 105) (end 70 180)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "33cd65af-5106-50ff-a9fe-6aaa42ef8888")
+	)
+	(gr_line
+		(start 70 180) (end 8 180)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "b7fa0525-a411-5ff8-bafa-1a06575216d4")
+	)
+	(gr_line
+		(start 8 180) (end 8 105)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "7d451af3-fd31-5b27-94d7-a27cfd4ff9f9")
+	)
+	(gr_text "TX A  cavity"
+		(at 10 109 0)
+		(layer "Cmts.User")
+		(uuid "1bac8d2c-ec8f-5836-8f0d-8528fd84f51d")
+		(effects (font (size 1.2 1.2) (thickness 0.15)))
+	)
+	(gr_line
+		(start 210 20) (end 272 20)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "f359e43d-a3ea-5dba-8d38-25447b50e5d6")
+	)
+	(gr_line
+		(start 272 20) (end 272 100)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "962152d4-417f-5eba-8617-1523a2310883")
+	)
+	(gr_line
+		(start 272 100) (end 210 100)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "eceda1bf-4912-550e-bdab-1fbeffdcefb3")
+	)
+	(gr_line
+		(start 210 100) (end 210 20)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "fcfebb89-6cd9-5618-b3af-039440f91fd4")
+	)
+	(gr_text "RX B  cavity"
+		(at 212 24 0)
+		(layer "Cmts.User")
+		(uuid "68e2d107-a233-5932-b9ee-9e5171d6c867")
+		(effects (font (size 1.2 1.2) (thickness 0.15)))
+	)
+	(gr_line
+		(start 210 105) (end 272 105)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "3e1a127c-aaea-5b18-980f-e409dc8c86b4")
+	)
+	(gr_line
+		(start 272 105) (end 272 180)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "a72a6bbb-224f-5d59-bcfe-43ac715e63f8")
+	)
+	(gr_line
+		(start 272 180) (end 210 180)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "0db3b8c0-4cc9-5cc1-979b-81b37e7582ba")
+	)
+	(gr_line
+		(start 210 180) (end 210 105)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "f1b83352-4bde-5811-b504-bb1dc2e6cfc0")
+	)
+	(gr_text "TX B  cavity"
+		(at 212 109 0)
+		(layer "Cmts.User")
+		(uuid "7b038da3-985d-5245-8906-8f818cb3e2a8")
+		(effects (font (size 1.2 1.2) (thickness 0.15)))
+	)
+	(gr_line
+		(start 78 125) (end 145 125)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "4299a148-a7de-5e30-bf4e-aeecbb620777")
+	)
+	(gr_line
+		(start 145 125) (end 145 182)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "5f4218de-2415-5c42-9e91-a2519e08fe1d")
+	)
+	(gr_line
+		(start 145 182) (end 78 182)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "4b635927-9d44-5e26-b6f8-ee166193b3a1")
+	)
+	(gr_line
+		(start 78 182) (end 78 125)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "48a988bf-ef86-5b34-9488-9e0e42504e15")
+	)
+	(gr_text "Clock cavity  OCXO LMK ADF LMX"
+		(at 80 129 0)
+		(layer "Cmts.User")
+		(uuid "d000c582-59d0-5df7-99a5-9cb0e3dad932")
+		(effects (font (size 1.2 1.2) (thickness 0.15)))
+	)
+	(gr_line
+		(start 100 40) (end 175 40)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "a26cf21d-0816-5a74-94d5-189e268d7e75")
+	)
+	(gr_line
+		(start 175 40) (end 175 115)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "84b1f98b-ef00-5b8f-b055-965a82d69ceb")
+	)
+	(gr_line
+		(start 175 115) (end 100 115)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "49356147-1e8c-504a-b83a-5a3a692640c3")
+	)
+	(gr_line
+		(start 100 115) (end 100 40)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "a8ddbfd4-893f-5b92-a928-744d1c081be0")
+	)
+	(gr_text "AD9084 + Versal  top side"
+		(at 102 44 0)
+		(layer "Cmts.User")
+		(uuid "1018c4d5-a8aa-56a6-b3b0-a4d01e04e710")
+		(effects (font (size 1.2 1.2) (thickness 0.15)))
+	)
+	(gr_line
+		(start 180 150) (end 250 150)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "1d963884-b3bb-53f9-9ce0-9cf879b0ff56")
+	)
+	(gr_line
+		(start 250 150) (end 250 182)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "f0982c08-2d23-54d3-b64a-81f2c7e86f09")
+	)
+	(gr_line
+		(start 250 182) (end 180 182)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "06ca657c-5f91-575f-9fda-a2b0fb3bcfa7")
+	)
+	(gr_line
+		(start 180 182) (end 180 150)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "473491ed-550d-5bd8-93b9-e062c6a93756")
+	)
+	(gr_text "2x QSFP-DD"
+		(at 182 154 0)
+		(layer "Cmts.User")
+		(uuid "4ca325e7-cf6e-525f-81ae-6f104f53d0be")
+		(effects (font (size 1.2 1.2) (thickness 0.15)))
+	)
+	(gr_line
+		(start 80 20) (end 180 20)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "1ee066f0-c964-5041-ac80-80f290e41d82")
+	)
+	(gr_line
+		(start 180 20) (end 180 38)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "1c247a1d-55ea-5eb9-ab3b-2dfe8517a2c6")
+	)
+	(gr_line
+		(start 180 38) (end 80 38)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "610f2ff9-4285-5be9-8f00-131596af224a")
+	)
+	(gr_line
+		(start 80 38) (end 80 20)
+		(stroke (width 0.2) (type solid))
+		(layer "Cmts.User")
+		(uuid "0c650e6e-0846-5eeb-8ec2-a7f7c57749ce")
+	)
+	(gr_text "Regulators, bottom preferred"
+		(at 82 24 0)
+		(layer "Cmts.User")
+		(uuid "9a0c6f17-55ac-56f4-afc1-f643d50afc7a")
+		(effects (font (size 1.2 1.2) (thickness 0.15)))
+	)
+	(footprint "ultra:MountingHole_M3"
+		(layer "F.Cu")
+		(uuid "e59cd170-61c7-53dd-b98c-e3eb5911e9c8")
+		(at 6 6)
+			(property "Reference" "H"
+				(at 6 6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "M3"
+				(at 6 6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+			(property "Footprint" "ultra:MountingHole_M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (uuid "686410ea-4e50-5c6b-9559-eb3406e0a1f5"))
+		(fp_circle (center 0 0) (end 4.5 0) (stroke (width 0.15) (type default)) (fill none) (layer "Cmts.User"))
+	)
+	(footprint "ultra:MountingHole_M3"
+		(layer "F.Cu")
+		(uuid "f31b993e-483a-5827-809a-02dc46209c7f")
+		(at 274 6)
+			(property "Reference" "H"
+				(at 274 6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "M3"
+				(at 274 6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+			(property "Footprint" "ultra:MountingHole_M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (uuid "3522dd56-39ed-5754-a458-4b1fabe3d6a1"))
+		(fp_circle (center 0 0) (end 4.5 0) (stroke (width 0.15) (type default)) (fill none) (layer "Cmts.User"))
+	)
+	(footprint "ultra:MountingHole_M3"
+		(layer "F.Cu")
+		(uuid "d489c426-8e14-5c17-8cef-4d357e626067")
+		(at 6 184)
+			(property "Reference" "H"
+				(at 6 184 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "M3"
+				(at 6 184 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+			(property "Footprint" "ultra:MountingHole_M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (uuid "6f75ebda-03bb-5238-a420-f44eb6b22084"))
+		(fp_circle (center 0 0) (end 4.5 0) (stroke (width 0.15) (type default)) (fill none) (layer "Cmts.User"))
+	)
+	(footprint "ultra:MountingHole_M3"
+		(layer "F.Cu")
+		(uuid "5281cd2d-1cce-561e-9363-e2ce0a1cefbe")
+		(at 274 184)
+			(property "Reference" "H"
+				(at 274 184 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "M3"
+				(at 274 184 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+			(property "Footprint" "ultra:MountingHole_M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (uuid "b62aa783-e5aa-5b97-adc5-fedcbd7488d3"))
+		(fp_circle (center 0 0) (end 4.5 0) (stroke (width 0.15) (type default)) (fill none) (layer "Cmts.User"))
+	)
+	(footprint "ultra:MountingHole_M3"
+		(layer "F.Cu")
+		(uuid "c3337076-1b7f-527e-bdbf-a9f8817683ac")
+		(at 140 6)
+			(property "Reference" "H"
+				(at 140 6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "M3"
+				(at 140 6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+			(property "Footprint" "ultra:MountingHole_M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (uuid "8210d32e-5d76-5a79-bacf-e1a88d401f47"))
+		(fp_circle (center 0 0) (end 4.5 0) (stroke (width 0.15) (type default)) (fill none) (layer "Cmts.User"))
+	)
+	(footprint "ultra:MountingHole_M3"
+		(layer "F.Cu")
+		(uuid "67fb433d-e73c-598f-86c2-0e3a291f4a91")
+		(at 140 184)
+			(property "Reference" "H"
+				(at 140 184 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "M3"
+				(at 140 184 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+			(property "Footprint" "ultra:MountingHole_M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (uuid "ac9a72c9-fdd3-5038-ba3c-52404091f1a9"))
+		(fp_circle (center 0 0) (end 4.5 0) (stroke (width 0.15) (type default)) (fill none) (layer "Cmts.User"))
+	)
+	(footprint "ultra:Courtyard_U_AFE"
+		(layer "F.Cu")
+		(uuid "05c41513-5189-537e-bc34-fea1d22e301b")
+		(at 120 78)
+			(property "Reference" "U_AFE"
+				(at 0 -14.0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "AD9084 outline, no lands"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_rect (start -13.00 -12.00) (end 13.00 12.00)
+			(stroke (width 0.15) (type default)) (fill none) (layer "F.Fab"))
+		(fp_text user "AD9084 outline, no lands" (at 0 0 0) (layer "F.Fab")
+			(effects (font (size 1.0 1.0) (thickness 0.15)))
+			(uuid "72c81a2b-d74e-543f-b042-05f622448b98"))
+	)
+	(footprint "ultra:Courtyard_U_FPGA"
+		(layer "F.Cu")
+		(uuid "65ab53ed-640b-5826-9f49-b3dd6b4e56a9")
+		(at 175 78)
+			(property "Reference" "U_FPGA"
+				(at 0 -27.0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "XCVP1802 outline, no lands"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_rect (start -25.00 -25.00) (end 25.00 25.00)
+			(stroke (width 0.15) (type default)) (fill none) (layer "F.Fab"))
+		(fp_text user "XCVP1802 outline, no lands" (at 0 0 0) (layer "F.Fab")
+			(effects (font (size 1.0 1.0) (thickness 0.15)))
+			(uuid "a125e5ef-482f-53e4-ad61-da0e6a7708d0"))
+	)
+	(footprint "ultra:Courtyard_U_OCXO"
+		(layer "F.Cu")
+		(uuid "5234d4ac-9aef-52ba-ba76-7dc2c5cd85d4")
+		(at 105 155)
+			(property "Reference" "U_OCXO"
+				(at 0 -13.0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "100 MHz OCXO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_rect (start -13.00 -11.00) (end 13.00 11.00)
+			(stroke (width 0.15) (type default)) (fill none) (layer "F.Fab"))
+		(fp_text user "100 MHz OCXO" (at 0 0 0) (layer "F.Fab")
+			(effects (font (size 1.0 1.0) (thickness 0.15)))
+			(uuid "65258608-2cae-56eb-aec8-328699c2036a"))
+	)
+	(footprint "ultra:Fiducial"
+		(layer "F.Cu")
+		(uuid "62201be1-1a2a-58d9-8a0e-a2dd120bf529")
+		(at 12 16)
+			(property "Reference" "FID0"
+				(at 12 14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "Fiducial"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_bom)
+		(pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask") (solder_mask_margin 0.5) (uuid "a1bd0c6f-1960-5e7c-9f0a-74bf0546b0df"))
+	)
+	(footprint "ultra:Fiducial"
+		(layer "F.Cu")
+		(uuid "5a2bb678-b63c-5f70-8912-3aefdb76f990")
+		(at 268 16)
+			(property "Reference" "FID1"
+				(at 268 14 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "Fiducial"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_bom)
+		(pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask") (solder_mask_margin 0.5) (uuid "c4131f80-b981-5d28-bda8-b3cd1b793f40"))
+	)
+	(footprint "ultra:Fiducial"
+		(layer "F.Cu")
+		(uuid "be2da934-a7fc-579b-851e-8775defa9c81")
+		(at 12 174)
+			(property "Reference" "FID2"
+				(at 12 172 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Value" "Fiducial"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+				)
+					(hide yes)
+			)
+		)
+		(attr exclude_from_bom)
+		(pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask") (solder_mask_margin 0.5) (uuid "0a39770c-d28a-5678-84ae-620b79cadc71"))
+	)
+)
