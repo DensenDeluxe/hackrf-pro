@@ -1,0 +1,9293 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a4b61a04-9e05-5cd4-8ea7-2f2fa016d164")
+	(paper "A1")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+		(comment 2 "Architecture rev 0.1. Not a fabrication package.")
+	)
+	(lib_symbols
+		(symbol "ultra:LT8672-U38"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT8672"
+			(at 0 -6.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT8672-U38_0_1"
+				(rectangle (start -17.78 -5.08) (end 17.78 5.08)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT8672-U38_1_1"
+				(pin power_in line
+					(at -17.78 1.27 180)
+					(length 2.54)
+					(name "INA" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -17.78 -1.27 180)
+					(length 2.54)
+					(name "INB" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "OUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -5.08 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -5.08 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P48V"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P48V"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P48V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P48V_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P48V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#FLG"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0.0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol PWR_FLAG"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 0.0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol GND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LTM4700-U39"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM4700"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LTM4700-U39_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LTM4700-U39_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P0V80_VCCINT"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P0V80_VCCINT"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P0V80_VCCINT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P0V80_VCCINT_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P0V80_VCCINT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LTM4657-U40"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM4657"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LTM4657-U40_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LTM4657-U40_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P0V88_GTM"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P0V88_GTM"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P0V88_GTM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P0V88_GTM_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P0V88_GTM_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LTM4658-U41"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM4658"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LTM4658-U41_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LTM4658-U41_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P1V0_BULK"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V0_BULK"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V0_BULK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V0_BULK_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V0_BULK_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LT3045-U42"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT3045-U42_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT3045-U42_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P1V0_CK"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V0_CK"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V0_CK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V0_CK_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V0_CK_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LTM8074-U43"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM8074"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LTM8074-U43_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LTM8074-U43_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P1V8"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V8"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V8_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LTM8074-U44"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM8074"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LTM8074-U44_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LTM8074-U44_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P3V3"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P3V3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P3V3_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LTM8074-U45"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM8074"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LTM8074-U45_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LTM8074-U45_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P5V0"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P5V0"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P5V0"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P5V0_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P5V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LT8642S-U46"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT8642S"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT8642S-U46_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT8642S-U46_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P12V_OCXO"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P12V_OCXO"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P12V_OCXO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P12V_OCXO_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P12V_OCXO_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LT8642S-U47"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT8642S"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT8642S-U47_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT8642S-U47_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P15V_PA"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P15V_PA"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P15V_PA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P15V_PA_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P15V_PA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:ADP5070-U48"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADP5070"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "ADP5070-U48_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "ADP5070-U48_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VNEG" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:N5V_RAW"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "N5V_RAW"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol N5V_RAW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "N5V_RAW_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "N5V_RAW_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LT3094-U49"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3094"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT3094-U49_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT3094-U49_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:N3V3_RF"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "N3V3_RF"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol N3V3_RF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "N3V3_RF_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "N3V3_RF_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LT3045-U50"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT3045-U50_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT3045-U50_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P3V3_CLK"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3_CLK"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P3V3_CLK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P3V3_CLK_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P3V3_CLK_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LT3045-U51"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT3045-U51_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT3045-U51_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P5V_PLL"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P5V_PLL"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P5V_PLL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P5V_PLL_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P5V_PLL_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LT3045-U52"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT3045-U52_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT3045-U52_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P3V3_PLL"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3_PLL"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P3V3_PLL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P3V3_PLL_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P3V3_PLL_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LT3045-U53"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT3045-U53_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT3045-U53_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P2V5_CLK"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P2V5_CLK"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P2V5_CLK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P2V5_CLK_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P2V5_CLK_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:LT3045-U54"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "LT3045-U54_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "LT3045-U54_1_1"
+				(pin power_in line
+					(at -17.78 0.00 180)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VOUT" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at -1.27 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+				(pin input line
+					(at 1.27 -3.81 270)
+					(length 2.54)
+					(name "EN" (effects (font (size 1.016 1.016))))
+					(number "302" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "power:P1V5_AUX"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V5_AUX"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V5_AUX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V5_AUX_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V5_AUX_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "ultra:BARREL_48V-J12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BARREL_48V"
+			(at 0 -5.3100000000000005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Functional symbol. Pin numbers are not datasheet balls."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "BARREL_48V-J12_0_1"
+				(rectangle (start -17.78 -3.81) (end 17.78 3.81)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "BARREL_48V-J12_1_1"
+				(pin power_out line
+					(at 17.78 0.00 0)
+					(length 2.54)
+					(name "VIN" (effects (font (size 1.016 1.016))))
+					(number "101" (effects (font (size 0.8 0.8))))
+				)
+				(pin power_in line
+					(at 0.00 -3.81 270)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.016 1.016))))
+					(number "301" (effects (font (size 0.8 0.8))))
+				)
+			)
+		)
+		(symbol "ultra:2pin-ferrite"
+			(pin_numbers (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+		(property "Reference" "F"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ferrite"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ferrite"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "2pin-ferrite_0_1"
+				(polyline (pts (xy -2.032 0.762) (xy 2.032 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+				(polyline (pts (xy -1.016 0) (xy 1.016 0)) (stroke (width 0) (type default)) (fill (type none)))
+			)
+			(symbol "2pin-ferrite_1_1"
+				(pin passive line (at -5.08 0 180) (length 2.54)
+					(name "1" (effects (font (size 1.016 1.016))))
+					(number "1" (effects (font (size 1.016 1.016)))))
+				(pin passive line (at 5.08 0 0) (length 2.54)
+					(name "2" (effects (font (size 1.016 1.016))))
+					(number "2" (effects (font (size 1.016 1.016)))))
+			)
+		)
+		(symbol "power:P1V0_ADC"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V0_ADC"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V0_ADC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V0_ADC_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V0_ADC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:P1V0_ADCBK"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V0_ADCBK"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V0_ADCBK"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V0_ADCBK_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V0_ADCBK_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:P1V0_DAC"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V0_DAC"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V0_DAC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V0_DAC_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V0_DAC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:P1V0_DACDIG"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V0_DACDIG"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V0_DACDIG"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V0_DACDIG_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V0_DACDIG_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:P5V0_RF"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P5V0_RF"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P5V0_RF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P5V0_RF_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P5V0_RF_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:P3V3_RF"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3_RF"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P3V3_RF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P3V3_RF_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P3V3_RF_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+		(symbol "power:P1V8_AFE"
+			(power)
+			(pin_numbers (hide yes))
+			(pin_names (offset 0) (hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P1V8_AFE"
+			(at 0.0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol P1V8_AFE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+			(symbol "P1V8_AFE_0_1"
+				(polyline
+					(pts (xy -1.27 1.27) (xy 1.27 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+				(polyline
+					(pts (xy 0 0) (xy 0 1.27))
+					(stroke (width 0) (type default))
+					(fill (type none))
+				)
+			)
+			(symbol "P1V8_AFE_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+			)
+		)
+	)
+	(text "Praline is a 5 V, sub-5 W USB board with a TPS62410 and 100 mA XC6206 LDOs. That budget cannot feed an OCXO, a 15 V PA, a 20 GSPS converter or a Versal. Input is USB-PD EPR 48 V at 5 A (240 W) OR a locking 48 V barrel. Typical draw is budgeted at 150 W, peak 200 W. Silent Switcher modules for the big rails, LT3045 only where the current is under 500 mA and the noise matters (clock, PLL, converter clock domain)."
+		(at 20.00 16.00 0)
+		(effects (font (size 1.35 1.35)))
+		(uuid "c11247f1-11ac-5eaf-b99a-df592f5dcf04")
+	)
+	(symbol
+		(lib_id "ultra:LT8672-U38")
+		(at 80.00 40.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1da16ec-0f40-5c3f-99ae-1767924111b1")
+		(property "Reference" "U38"
+			(at 80 38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT8672"
+			(at 80 42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt8672.html"
+			(at 80 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal-diode OR of P48V_USB and the barrel"
+			(at 80 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT8672"
+			(at 80 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 62.22 41.27) (xy 49.52 41.27))
+		(stroke (width 0) (type default))
+		(uuid "c416bd3e-7d66-5e4c-89d4-277dadb774aa")
+	)
+	(global_label "P48V_USB"
+		(shape bidirectional)
+		(at 49.52 41.27 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "475b2ae8-ff39-5688-bbd0-af3cc523b9db")
+	)
+	(wire
+		(pts (xy 62.22 38.73) (xy 49.52 38.73))
+		(stroke (width 0) (type default))
+		(uuid "31fb8615-2fd3-5596-b3d2-68e05e01e6ea")
+	)
+	(global_label "P48V_BARREL"
+		(shape bidirectional)
+		(at 49.52 38.73 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "40961783-0730-54ce-a651-f0bcc0b49269")
+	)
+	(wire
+		(pts (xy 97.78 40.00) (xy 110.48 40.00))
+		(stroke (width 0) (type default))
+		(uuid "5023a841-9fea-5aea-bf7d-d7edb0dd4fb2")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 110.48 40.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "e894fcf3-7525-5379-ba75-9549cf30d646")
+	)
+	(symbol
+		(lib_id "power:P48V")
+		(at 117.78 34.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f94d603-a8f9-5acc-80d8-99743bb8c1fd")
+		(property "Reference" "#PWR109"
+			(at 117.78 32.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P48V"
+			(at 117.78 36.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.78 34.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 117.78 34.00) (xy 125.40 34.00))
+		(stroke (width 0) (type default))
+		(uuid "626acd50-bfbe-5429-a6f3-502b3d491f68")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.40 34.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e31df31-5317-5dca-b2fa-7fa8c1d915ba")
+		(property "Reference" "#FLG1"
+			(at 125.4 32.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.4 36.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.4 34.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 78.73 34.92) (xy 78.73 29.84))
+		(stroke (width 0) (type default))
+		(uuid "b0245f9f-3cbe-58ba-92dc-75cc80022410")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.73 29.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cedfac92-9e9c-519e-ba43-3803c3df45a6")
+		(property "Reference" "#PWR110"
+			(at 78.73 27.840000000000003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.73 31.840000000000003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.73 29.840000000000003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 81.27 34.92) (xy 81.27 27.30))
+		(stroke (width 0) (type default))
+		(uuid "3ca219a2-306d-57e2-b5e7-99ae57c2c085")
+	)
+	(global_label "EN_P48V"
+		(shape bidirectional)
+		(at 81.27 27.30 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "6347010e-8049-503a-bd5f-6673f1791ef6")
+	)
+	(symbol
+		(lib_id "ultra:LTM4700-U39")
+		(at 80.00 68.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e75b6958-d04d-5d7f-ad93-a646df1ed138")
+		(property "Reference" "U39"
+			(at 80 66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM4700"
+			(at 80 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/ltm4700.html"
+			(at 80 68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FPGA VCCINT, 100 A class module, 0.80 V"
+			(at 80 68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTM4700"
+			(at 80 68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 62.22 68.00) (xy 49.52 68.00))
+		(stroke (width 0) (type default))
+		(uuid "7320dbc3-a7bc-595a-8f13-f628d2558ca3")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 49.52 68.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "34c830d5-e2da-5aeb-aef9-e397ada44202")
+	)
+	(wire
+		(pts (xy 97.78 68.00) (xy 110.48 68.00))
+		(stroke (width 0) (type default))
+		(uuid "54b6b55e-8f60-5261-8078-424941a21c14")
+	)
+	(global_label "P0V80_VCCINT"
+		(shape bidirectional)
+		(at 110.48 68.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "efa04893-8704-50ad-9330-700937cd1767")
+	)
+	(symbol
+		(lib_id "power:P0V80_VCCINT")
+		(at 117.78 62.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "03f37e4c-1ed6-5aaf-adcb-ced94d357ea6")
+		(property "Reference" "#PWR111"
+			(at 117.78 60.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P0V80_VCCINT"
+			(at 117.78 64.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.78 62.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 117.78 62.00) (xy 125.40 62.00))
+		(stroke (width 0) (type default))
+		(uuid "7443b5ff-b0d7-5bc7-86e1-e7cc78cc09d5")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.40 62.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d27be2a-c6ce-528c-be3c-bbf233f89d52")
+		(property "Reference" "#FLG2"
+			(at 125.4 60.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.4 64.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.4 62.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 78.73 64.19) (xy 78.73 59.11))
+		(stroke (width 0) (type default))
+		(uuid "4dda5e35-aacc-50ef-984c-2e143a9ba33f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.73 59.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3be248b7-4709-5465-a844-2ac73d23a62a")
+		(property "Reference" "#PWR112"
+			(at 78.73 57.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.73 61.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.73 59.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 81.27 64.19) (xy 81.27 56.57))
+		(stroke (width 0) (type default))
+		(uuid "93ab0d1e-7eed-51b0-b597-a5b1041759f4")
+	)
+	(global_label "EN_P0V80_VCCINT"
+		(shape bidirectional)
+		(at 81.27 56.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "810287cb-15df-56df-82e7-6e5b4cc782c1")
+	)
+	(symbol
+		(lib_id "ultra:LTM4657-U40")
+		(at 80.00 96.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38b47b97-4685-5e8f-b8f9-5d4676038946")
+		(property "Reference" "U40"
+			(at 80 94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM4657"
+			(at 80 98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/ltm4657.html"
+			(at 80 96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GTM rail 0.88 V"
+			(at 80 96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTM4657"
+			(at 80 96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 62.22 96.00) (xy 49.52 96.00))
+		(stroke (width 0) (type default))
+		(uuid "112b925d-273b-569e-bcc3-70c43394fa19")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 49.52 96.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "52cd7266-ea21-55c4-a25c-ff61d7612570")
+	)
+	(wire
+		(pts (xy 97.78 96.00) (xy 110.48 96.00))
+		(stroke (width 0) (type default))
+		(uuid "91b1ee99-4d6d-5bc2-9d49-329d3e603dc0")
+	)
+	(global_label "P0V88_GTM"
+		(shape bidirectional)
+		(at 110.48 96.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "81a6512e-2dfc-54f5-befe-ae158cd5bf08")
+	)
+	(symbol
+		(lib_id "power:P0V88_GTM")
+		(at 117.78 90.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "814ccbcd-433e-5352-a0df-4c32948a745f")
+		(property "Reference" "#PWR113"
+			(at 117.78 88.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P0V88_GTM"
+			(at 117.78 92.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.78 90.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 117.78 90.00) (xy 125.40 90.00))
+		(stroke (width 0) (type default))
+		(uuid "194b213c-acca-5c34-8ef4-88dbe78274ad")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.40 90.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f067e48-e7cd-5389-a17e-e2280fc31bf7")
+		(property "Reference" "#FLG3"
+			(at 125.4 88.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.4 92.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.4 90.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 78.73 92.19) (xy 78.73 87.11))
+		(stroke (width 0) (type default))
+		(uuid "809df2cd-f81a-5628-8b02-0434f764c6aa")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.73 87.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "340a3bf5-7dc4-57db-89ee-3471d465fe6e")
+		(property "Reference" "#PWR114"
+			(at 78.73 85.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.73 89.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.73 87.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 81.27 92.19) (xy 81.27 84.57))
+		(stroke (width 0) (type default))
+		(uuid "7c2e2589-b4b5-518a-baac-41a97f024a0a")
+	)
+	(global_label "EN_P0V88_GTM"
+		(shape bidirectional)
+		(at 81.27 84.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "35ddcd40-6583-5ca4-8db8-aafcdfc80067")
+	)
+	(symbol
+		(lib_id "ultra:LTM4658-U41")
+		(at 80.00 124.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68781ad2-7dfd-5ff5-891c-073af1b04a2c")
+		(property "Reference" "U41"
+			(at 80 122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM4658"
+			(at 80 126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/ltm4658.html"
+			(at 80 124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AFE 1.0 V bulk, then ferrites per domain"
+			(at 80 124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTM4658"
+			(at 80 124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 62.22 124.00) (xy 49.52 124.00))
+		(stroke (width 0) (type default))
+		(uuid "bef91353-11f9-5bea-b916-87957141b136")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 49.52 124.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "1955e474-b362-5aea-837b-ac7ed6f4c95d")
+	)
+	(wire
+		(pts (xy 97.78 124.00) (xy 110.48 124.00))
+		(stroke (width 0) (type default))
+		(uuid "7a275307-521b-598e-8735-a11aa8672557")
+	)
+	(global_label "P1V0_BULK"
+		(shape bidirectional)
+		(at 110.48 124.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "e2ce6eca-77cd-51de-99d4-19f837a4e22e")
+	)
+	(symbol
+		(lib_id "power:P1V0_BULK")
+		(at 117.78 118.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "872b3662-4124-51e0-bb3b-f136d299c178")
+		(property "Reference" "#PWR115"
+			(at 117.78 116.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V0_BULK"
+			(at 117.78 120.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.78 118.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 117.78 118.00) (xy 125.40 118.00))
+		(stroke (width 0) (type default))
+		(uuid "eb711678-6456-57f5-b68f-67619f635408")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.40 118.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "70b5dc02-b0dd-5220-bfa1-71d9b45bca47")
+		(property "Reference" "#FLG4"
+			(at 125.4 116.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.4 120.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.4 118.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 78.73 120.19) (xy 78.73 115.11))
+		(stroke (width 0) (type default))
+		(uuid "a9df462b-60e9-54a8-8573-15192ae32158")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.73 115.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "add72ff8-0515-54d0-a973-1c6c937dfb86")
+		(property "Reference" "#PWR116"
+			(at 78.73 113.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.73 117.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.73 115.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 81.27 120.19) (xy 81.27 112.57))
+		(stroke (width 0) (type default))
+		(uuid "6218ac1b-ea2c-54b1-88d4-6579a1e34596")
+	)
+	(global_label "EN_P1V0_BULK"
+		(shape bidirectional)
+		(at 81.27 112.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "3b09ce94-c951-5661-8a0a-c561023e81be")
+	)
+	(symbol
+		(lib_id "ultra:LT3045-U42")
+		(at 80.00 152.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e067308-90de-5a3d-9e4c-931f39a258d1")
+		(property "Reference" "U42"
+			(at 80 150 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 80 154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt3045.html"
+			(at 80 152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AD9084 clock domain, from the 1.0 V bulk"
+			(at 80 152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT3045"
+			(at 80 152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 62.22 152.00) (xy 49.52 152.00))
+		(stroke (width 0) (type default))
+		(uuid "2cb14be7-e1b1-5896-8263-d96852234c8d")
+	)
+	(global_label "P1V0_BULK"
+		(shape bidirectional)
+		(at 49.52 152.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "747a4075-d1c5-5ff8-afad-15cf86f201f1")
+	)
+	(wire
+		(pts (xy 97.78 152.00) (xy 110.48 152.00))
+		(stroke (width 0) (type default))
+		(uuid "28c388a4-84f8-554b-8941-3b56f83c0949")
+	)
+	(global_label "P1V0_CK"
+		(shape bidirectional)
+		(at 110.48 152.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "0c9ab208-7d1a-589c-975d-f5c738aec0c7")
+	)
+	(symbol
+		(lib_id "power:P1V0_CK")
+		(at 117.78 146.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce8637d1-a6fa-5797-bba2-6788f822f9f6")
+		(property "Reference" "#PWR117"
+			(at 117.78 144.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V0_CK"
+			(at 117.78 148.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.78 146.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 117.78 146.00) (xy 125.40 146.00))
+		(stroke (width 0) (type default))
+		(uuid "ee4bff58-0f7a-5b68-8d96-c8b60acfdc5f")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.40 146.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5e0406c-1d0b-58fd-a87b-4436870eb687")
+		(property "Reference" "#FLG5"
+			(at 125.4 144.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.4 148.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.4 146.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 78.73 148.19) (xy 78.73 143.11))
+		(stroke (width 0) (type default))
+		(uuid "108c0b79-4a50-53f8-a81a-de4c85609a63")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.73 143.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8799963d-8d47-50d7-956f-275dfff5e6ad")
+		(property "Reference" "#PWR118"
+			(at 78.73 141.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.73 145.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.73 143.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 81.27 148.19) (xy 81.27 140.57))
+		(stroke (width 0) (type default))
+		(uuid "fba4a530-a3ed-5153-b751-463900bde183")
+	)
+	(global_label "EN_P1V0_CK"
+		(shape bidirectional)
+		(at 81.27 140.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "2c45b72c-e2e1-50b7-9888-3a74620ba561")
+	)
+	(symbol
+		(lib_id "ultra:LTM8074-U43")
+		(at 80.00 180.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6c89e85-32e5-585c-9d65-da4613aecb27")
+		(property "Reference" "U43"
+			(at 80 178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM8074"
+			(at 80 182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 180 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/ltm8074.html"
+			(at 80 180 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8 V"
+			(at 80 180 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 180 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTM8074"
+			(at 80 180 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 62.22 180.00) (xy 49.52 180.00))
+		(stroke (width 0) (type default))
+		(uuid "39f6d758-c698-5682-8df1-0d68acf2fd79")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 49.52 180.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "593d0cde-f9dd-5570-afee-616d045389df")
+	)
+	(wire
+		(pts (xy 97.78 180.00) (xy 110.48 180.00))
+		(stroke (width 0) (type default))
+		(uuid "d6a36a34-d280-5ee5-a916-e9858e3d8e59")
+	)
+	(global_label "P1V8"
+		(shape bidirectional)
+		(at 110.48 180.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "43873bfa-fb56-5cef-b33f-01d2850e21d7")
+	)
+	(symbol
+		(lib_id "power:P1V8")
+		(at 117.78 174.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "70029269-758c-5e79-9686-a84f0cabacae")
+		(property "Reference" "#PWR119"
+			(at 117.78 172.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V8"
+			(at 117.78 176.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.78 174.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 117.78 174.00) (xy 125.40 174.00))
+		(stroke (width 0) (type default))
+		(uuid "53457dc5-f229-5ca5-9403-7a34550f738f")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.40 174.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "20347df8-feb5-51c8-bc02-0f2dfe74929f")
+		(property "Reference" "#FLG6"
+			(at 125.4 172.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.4 176.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.4 174.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 78.73 176.19) (xy 78.73 171.11))
+		(stroke (width 0) (type default))
+		(uuid "77e9dd47-9bf8-5f14-8e2c-2def1170ba34")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.73 171.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "872a965a-6831-51df-9416-7758ec1651b0")
+		(property "Reference" "#PWR120"
+			(at 78.73 169.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.73 173.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.73 171.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 81.27 176.19) (xy 81.27 168.57))
+		(stroke (width 0) (type default))
+		(uuid "173ce11d-f77e-5d00-a0f6-f6bd85c34e58")
+	)
+	(global_label "EN_P1V8"
+		(shape bidirectional)
+		(at 81.27 168.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c75fc839-d18b-538e-917b-ecf9a08b8223")
+	)
+	(symbol
+		(lib_id "ultra:LTM8074-U44")
+		(at 80.00 208.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e1ca2b3-af39-573e-925e-f11d0f26e8a3")
+		(property "Reference" "U44"
+			(at 80 206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM8074"
+			(at 80 210 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/ltm8074.html"
+			(at 80 208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3 V"
+			(at 80 208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTM8074"
+			(at 80 208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 62.22 208.00) (xy 49.52 208.00))
+		(stroke (width 0) (type default))
+		(uuid "d887e4b9-7adf-5bc0-90fe-237d1f313b70")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 49.52 208.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "184119f8-24aa-50e2-bb21-045c95da59be")
+	)
+	(wire
+		(pts (xy 97.78 208.00) (xy 110.48 208.00))
+		(stroke (width 0) (type default))
+		(uuid "f40e6645-2e5b-54dd-bae4-6ce84d7feeea")
+	)
+	(global_label "P3V3"
+		(shape bidirectional)
+		(at 110.48 208.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "142b6697-29a0-53bc-9261-73fa64dbfce3")
+	)
+	(symbol
+		(lib_id "power:P3V3")
+		(at 117.78 202.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "37eaaa48-8ebf-5dc3-a8ed-81857339680c")
+		(property "Reference" "#PWR121"
+			(at 117.78 200.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 117.78 204.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.78 202.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 117.78 202.00) (xy 125.40 202.00))
+		(stroke (width 0) (type default))
+		(uuid "4ba6107b-0315-56a4-9e95-ead14d56e30f")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.40 202.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "44f97750-7a1b-5a27-b92d-b007fef41db2")
+		(property "Reference" "#FLG7"
+			(at 125.4 200.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.4 204.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.4 202.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 78.73 204.19) (xy 78.73 199.11))
+		(stroke (width 0) (type default))
+		(uuid "eef36d4b-6c0b-5022-915d-4826c6a74e93")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.73 199.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "08bdebbe-d765-5bf3-84c8-dc100fb48ec5")
+		(property "Reference" "#PWR122"
+			(at 78.73 197.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.73 201.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.73 199.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 81.27 204.19) (xy 81.27 196.57))
+		(stroke (width 0) (type default))
+		(uuid "ce8dbcac-30f9-50c9-a7a1-edfe17acee33")
+	)
+	(global_label "EN_P3V3"
+		(shape bidirectional)
+		(at 81.27 196.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "7ed2f905-b97e-5445-9e47-7a428bd89aeb")
+	)
+	(symbol
+		(lib_id "ultra:LTM8074-U45")
+		(at 80.00 236.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d1b74c5-ed09-5804-83ee-e8f957678903")
+		(property "Reference" "U45"
+			(at 80 234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTM8074"
+			(at 80 238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/ltm8074.html"
+			(at 80 236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5 V"
+			(at 80 236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LTM8074"
+			(at 80 236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 62.22 236.00) (xy 49.52 236.00))
+		(stroke (width 0) (type default))
+		(uuid "6a87b6fa-6d26-5957-8328-4f965f7cdb45")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 49.52 236.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "9c56c4ff-10f4-55fc-9977-506626de15be")
+	)
+	(wire
+		(pts (xy 97.78 236.00) (xy 110.48 236.00))
+		(stroke (width 0) (type default))
+		(uuid "5f783634-1770-5ec8-a4e7-d8b3196a8d0c")
+	)
+	(global_label "P5V0"
+		(shape bidirectional)
+		(at 110.48 236.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f5e89546-4467-5647-ab44-4663d6666f7b")
+	)
+	(symbol
+		(lib_id "power:P5V0")
+		(at 117.78 230.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b79b0315-4343-520d-a72a-a81f814a3287")
+		(property "Reference" "#PWR123"
+			(at 117.78 228.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5V0"
+			(at 117.78 232.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.78 230.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 117.78 230.00) (xy 125.40 230.00))
+		(stroke (width 0) (type default))
+		(uuid "1aed40b4-6ccb-576b-abca-aab5b443255f")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.40 230.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "039c4a72-dc32-5dd1-b9f8-a8bff7c1f882")
+		(property "Reference" "#FLG8"
+			(at 125.4 228.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.4 232.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.4 230.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 78.73 232.19) (xy 78.73 227.11))
+		(stroke (width 0) (type default))
+		(uuid "60f41c03-2a92-55d0-ac47-5f3d0030a75e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.73 227.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6c1916a-9e46-58d2-9189-071ed903918e")
+		(property "Reference" "#PWR124"
+			(at 78.73 225.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.73 229.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.73 227.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 81.27 232.19) (xy 81.27 224.57))
+		(stroke (width 0) (type default))
+		(uuid "6e6b8d46-b2ea-5197-80fe-13a530c9232c")
+	)
+	(global_label "EN_P5V0"
+		(shape bidirectional)
+		(at 81.27 224.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "8cdc67e9-3e43-5858-9e67-25be1364e642")
+	)
+	(symbol
+		(lib_id "ultra:LT8642S-U46")
+		(at 80.00 264.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "122b4da4-9b93-56e7-85ab-43290eaa1d64")
+		(property "Reference" "U46"
+			(at 80 262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT8642S"
+			(at 80 266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 80 264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt8642s.html"
+			(at 80 264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12 V OCXO, Silent Switcher"
+			(at 80 264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 80 264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT8642S"
+			(at 80 264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 62.22 264.00) (xy 49.52 264.00))
+		(stroke (width 0) (type default))
+		(uuid "3c399fef-e3a6-5919-83d9-8cad6a02e6b1")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 49.52 264.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "2cd06344-6a6a-5828-934b-d47d96b67840")
+	)
+	(wire
+		(pts (xy 97.78 264.00) (xy 110.48 264.00))
+		(stroke (width 0) (type default))
+		(uuid "4113c1e1-f53a-52b3-91b9-3ae2a5083b9e")
+	)
+	(global_label "P12V_OCXO"
+		(shape bidirectional)
+		(at 110.48 264.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "9cb7829b-5b98-5de8-82ce-844e6cc8b13c")
+	)
+	(symbol
+		(lib_id "power:P12V_OCXO")
+		(at 117.78 258.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef259b40-9737-54b6-88f7-94b8c1c09547")
+		(property "Reference" "#PWR125"
+			(at 117.78 256.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P12V_OCXO"
+			(at 117.78 260.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.78 258.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 117.78 258.00) (xy 125.40 258.00))
+		(stroke (width 0) (type default))
+		(uuid "0eba0d04-f3a9-504b-bcf7-1855559e25bb")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.40 258.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5891e0b1-2579-5e82-b486-f5e6b55d0ae2")
+		(property "Reference" "#FLG9"
+			(at 125.4 256.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.4 260.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.4 258.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 78.73 260.19) (xy 78.73 255.11))
+		(stroke (width 0) (type default))
+		(uuid "9bd8706b-3ab8-5764-9830-7516128ba323")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.73 255.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5fd4895-af1e-5a9b-b0d6-51e422dc0969")
+		(property "Reference" "#PWR126"
+			(at 78.73 253.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.73 257.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.73 255.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 81.27 260.19) (xy 81.27 252.57))
+		(stroke (width 0) (type default))
+		(uuid "c3744da2-f0fb-5254-b71a-3c98ebe8a1d0")
+	)
+	(global_label "EN_P12V_OCXO"
+		(shape bidirectional)
+		(at 81.27 252.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "83b97c9f-6a85-561b-a2b2-d7c790f6c03f")
+	)
+	(symbol
+		(lib_id "ultra:LT8642S-U47")
+		(at 280.00 52.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9a7b602-5aef-5963-9fb6-d9cb53600cf7")
+		(property "Reference" "U47"
+			(at 280 50 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT8642S"
+			(at 280 54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 280 52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt8642s.html"
+			(at 280 52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15 V PA bulk, into HMC980 only"
+			(at 280 52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 280 52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT8642S"
+			(at 280 52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 262.22 52.00) (xy 249.52 52.00))
+		(stroke (width 0) (type default))
+		(uuid "a4d32686-a79e-5018-be2c-b7d49959308f")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 249.52 52.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f7ac3d11-22a7-5bc5-a976-3abd3669e1be")
+	)
+	(wire
+		(pts (xy 297.78 52.00) (xy 310.48 52.00))
+		(stroke (width 0) (type default))
+		(uuid "19bfa0e3-8a8f-521a-b72a-6b5e1e83413c")
+	)
+	(global_label "P15V_PA"
+		(shape bidirectional)
+		(at 310.48 52.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "921d4fb0-e320-599f-9497-109d8c43f7be")
+	)
+	(symbol
+		(lib_id "power:P15V_PA")
+		(at 317.78 46.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3350d915-d692-5e23-8f85-3c04ad82d6b5")
+		(property "Reference" "#PWR127"
+			(at 317.78 44.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P15V_PA"
+			(at 317.78 48.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.78 46.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 317.78 46.00) (xy 325.40 46.00))
+		(stroke (width 0) (type default))
+		(uuid "30e5b831-07d3-5ba2-890f-009d651d9559")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 325.40 46.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b47177ba-07ea-5237-8e43-83782ae55a96")
+		(property "Reference" "#FLG10"
+			(at 325.4 44.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 325.4 48.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.4 46.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 278.73 48.19) (xy 278.73 43.11))
+		(stroke (width 0) (type default))
+		(uuid "2885859b-60cc-5ebb-840b-855f1ebc59c9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.73 43.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1dd443d-292b-51e7-aa9f-fe928b88cb5a")
+		(property "Reference" "#PWR128"
+			(at 278.73 41.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.73 45.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.73 43.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 281.27 48.19) (xy 281.27 40.57))
+		(stroke (width 0) (type default))
+		(uuid "3a782d0c-a154-5c28-a659-0daf049d1868")
+	)
+	(global_label "EN_P15V_PA"
+		(shape bidirectional)
+		(at 281.27 40.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "4888ce1f-d033-56b2-83c0-86e90db47603")
+	)
+	(symbol
+		(lib_id "ultra:ADP5070-U48")
+		(at 280.00 80.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97412636-b674-5f09-ac16-b73d3ab1e8ac")
+		(property "Reference" "U48"
+			(at 280 78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADP5070"
+			(at 280 82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 280 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/adp5070.html"
+			(at 280 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inverting pre-regulator for the RF switches"
+			(at 280 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 280 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ADP5070"
+			(at 280 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 262.22 80.00) (xy 249.52 80.00))
+		(stroke (width 0) (type default))
+		(uuid "f7e19f40-3994-5c8d-8544-f83503007f07")
+	)
+	(global_label "P48V"
+		(shape bidirectional)
+		(at 249.52 80.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "62f761c6-6f7d-5187-91b1-a4eb27ec51e6")
+	)
+	(wire
+		(pts (xy 297.78 80.00) (xy 310.48 80.00))
+		(stroke (width 0) (type default))
+		(uuid "9a6eec13-84ca-5b56-b967-7ad31a2d7127")
+	)
+	(global_label "N5V_RAW"
+		(shape bidirectional)
+		(at 310.48 80.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "a245a769-e3a4-51c9-9bf2-bc1ed1dc853a")
+	)
+	(symbol
+		(lib_id "power:N5V_RAW")
+		(at 317.78 74.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "37076ac6-2bb6-5570-874a-3b7686339bbb")
+		(property "Reference" "#PWR129"
+			(at 317.78 72.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N5V_RAW"
+			(at 317.78 76.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.78 74.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 317.78 74.00) (xy 325.40 74.00))
+		(stroke (width 0) (type default))
+		(uuid "cbfd9954-4f8c-5c17-b71c-56c2d5deccbb")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 325.40 74.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "db1f0817-162a-537f-850a-7210aebeb4c8")
+		(property "Reference" "#FLG11"
+			(at 325.4 72.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 325.4 76.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.4 74.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 278.73 76.19) (xy 278.73 71.11))
+		(stroke (width 0) (type default))
+		(uuid "d229ec52-0be0-564a-8f28-8b1834a49cec")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.73 71.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b66b1f5c-b2bd-51a8-be25-1f927a010bcc")
+		(property "Reference" "#PWR130"
+			(at 278.73 69.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.73 73.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.73 71.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 281.27 76.19) (xy 281.27 68.57))
+		(stroke (width 0) (type default))
+		(uuid "4a7b0895-f5b2-514f-a506-8bee4c4e88cd")
+	)
+	(global_label "EN_N5V_RAW"
+		(shape bidirectional)
+		(at 281.27 68.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "eb74f408-aa46-5d0b-8e31-f22a80e41f8e")
+	)
+	(symbol
+		(lib_id "ultra:LT3094-U49")
+		(at 280.00 108.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5140fa5e-1b64-5b95-a8d8-8baa4210adb0")
+		(property "Reference" "U49"
+			(at 280 106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3094"
+			(at 280 110 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 280 108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt3094.html"
+			(at 280 108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.3 V ultralow noise, 500 mA"
+			(at 280 108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 280 108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT3094"
+			(at 280 108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 262.22 108.00) (xy 249.52 108.00))
+		(stroke (width 0) (type default))
+		(uuid "2abe86fa-8d33-5a28-ba47-ad62fa6b993a")
+	)
+	(global_label "N5V_RAW"
+		(shape bidirectional)
+		(at 249.52 108.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "69e6ccc2-6cc6-5d4d-9944-35765f8970ba")
+	)
+	(wire
+		(pts (xy 297.78 108.00) (xy 310.48 108.00))
+		(stroke (width 0) (type default))
+		(uuid "e3f2fde3-084e-5bd2-9010-3a938ff4465a")
+	)
+	(global_label "N3V3_RF"
+		(shape bidirectional)
+		(at 310.48 108.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "61fa62f5-1e75-5a64-bb69-6fc4f9f4932e")
+	)
+	(symbol
+		(lib_id "power:N3V3_RF")
+		(at 317.78 102.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ef8ad5f-d382-51f3-b961-79954f05779a")
+		(property "Reference" "#PWR131"
+			(at 317.78 100.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "N3V3_RF"
+			(at 317.78 104.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.78 102.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 317.78 102.00) (xy 325.40 102.00))
+		(stroke (width 0) (type default))
+		(uuid "f5305c53-cb1e-507b-a7ba-6aea20da34eb")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 325.40 102.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "02008733-e00a-51aa-a56a-96dac5412441")
+		(property "Reference" "#FLG12"
+			(at 325.4 100.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 325.4 104.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.4 102.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 278.73 104.19) (xy 278.73 99.11))
+		(stroke (width 0) (type default))
+		(uuid "ab06fa4f-1e4a-5be3-9ecf-3f5a11b5354d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.73 99.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d07733b4-52af-5cad-a5a0-a63fff04adfa")
+		(property "Reference" "#PWR132"
+			(at 278.73 97.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.73 101.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.73 99.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 281.27 104.19) (xy 281.27 96.57))
+		(stroke (width 0) (type default))
+		(uuid "57d4e76d-8a68-54c6-b57f-ac99a3842bfb")
+	)
+	(global_label "EN_N3V3_RF"
+		(shape bidirectional)
+		(at 281.27 96.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "ccecd92f-8a6f-537c-8906-9fe8bcdd6584")
+	)
+	(symbol
+		(lib_id "ultra:LT3045-U50")
+		(at 280.00 136.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b31ea281-9f46-5b27-aa86-fb6aeff6ceb6")
+		(property "Reference" "U50"
+			(at 280 134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 280 138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 280 136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt3045.html"
+			(at 280 136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3 V clock"
+			(at 280 136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 280 136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT3045"
+			(at 280 136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 262.22 136.00) (xy 249.52 136.00))
+		(stroke (width 0) (type default))
+		(uuid "82cefd8c-b910-57af-b2d8-b74d1609e83d")
+	)
+	(global_label "P5V0"
+		(shape bidirectional)
+		(at 249.52 136.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "7ab0ebe5-df5a-5f5c-a8a8-b30751571cf5")
+	)
+	(wire
+		(pts (xy 297.78 136.00) (xy 310.48 136.00))
+		(stroke (width 0) (type default))
+		(uuid "20d36056-85f7-5633-8cc9-bd6f0e067cfb")
+	)
+	(global_label "P3V3_CLK"
+		(shape bidirectional)
+		(at 310.48 136.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "2131dbc7-59a0-5503-8f84-3ea6e218d5c3")
+	)
+	(symbol
+		(lib_id "power:P3V3_CLK")
+		(at 317.78 130.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "63d8e0d0-1c13-58cb-9ab7-becb51e259ef")
+		(property "Reference" "#PWR133"
+			(at 317.78 128.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3_CLK"
+			(at 317.78 132.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.78 130.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 317.78 130.00) (xy 325.40 130.00))
+		(stroke (width 0) (type default))
+		(uuid "f4def6c3-0fad-5129-a008-8f9840b2f4c2")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 325.40 130.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "54c9a1f9-6fda-5278-91e8-c51c0d1aab54")
+		(property "Reference" "#FLG13"
+			(at 325.4 128.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 325.4 132.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.4 130.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 278.73 132.19) (xy 278.73 127.11))
+		(stroke (width 0) (type default))
+		(uuid "b09d2d0c-64f9-5331-ac48-d2ad1dbd7ca5")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.73 127.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dcf63d2-4452-5fdc-95c5-1a4542087dac")
+		(property "Reference" "#PWR134"
+			(at 278.73 125.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.73 129.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.73 127.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 281.27 132.19) (xy 281.27 124.57))
+		(stroke (width 0) (type default))
+		(uuid "6bba066b-2778-554d-b7c0-98ad5dcb1051")
+	)
+	(global_label "EN_P3V3_CLK"
+		(shape bidirectional)
+		(at 281.27 124.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "d5091323-6722-5544-a8df-4106848b1af1")
+	)
+	(symbol
+		(lib_id "ultra:LT3045-U51")
+		(at 280.00 164.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a67e85a-f2d8-5720-80dd-5425d95d621c")
+		(property "Reference" "U51"
+			(at 280 162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 280 166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 280 164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt3045.html"
+			(at 280 164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5 V PLL"
+			(at 280 164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 280 164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT3045"
+			(at 280 164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 262.22 164.00) (xy 249.52 164.00))
+		(stroke (width 0) (type default))
+		(uuid "e0be5e0c-25cb-53b3-9989-db4077c2ddb9")
+	)
+	(global_label "P5V0"
+		(shape bidirectional)
+		(at 249.52 164.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "6a04a642-c852-573e-86f5-1e6a7754c3d8")
+	)
+	(wire
+		(pts (xy 297.78 164.00) (xy 310.48 164.00))
+		(stroke (width 0) (type default))
+		(uuid "8d836c1b-e726-52e8-829c-27bf9b413db0")
+	)
+	(global_label "P5V_PLL"
+		(shape bidirectional)
+		(at 310.48 164.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f8cf48a9-a139-5f1a-b995-4b90ec20d2a6")
+	)
+	(symbol
+		(lib_id "power:P5V_PLL")
+		(at 317.78 158.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a26071e1-41fe-5793-b044-58cff481110c")
+		(property "Reference" "#PWR135"
+			(at 317.78 156.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5V_PLL"
+			(at 317.78 160.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.78 158.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 317.78 158.00) (xy 325.40 158.00))
+		(stroke (width 0) (type default))
+		(uuid "16ee9d44-4096-5f69-869a-079a0c8af3ae")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 325.40 158.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b92cc33d-d46f-588d-b8a7-3f29f33b124b")
+		(property "Reference" "#FLG14"
+			(at 325.4 156.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 325.4 160.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.4 158.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 278.73 160.19) (xy 278.73 155.11))
+		(stroke (width 0) (type default))
+		(uuid "aefa9082-04ab-5afb-adfc-8f1d98507cbe")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.73 155.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6d1fd75-f2d4-50f0-999c-49be714c7e3b")
+		(property "Reference" "#PWR136"
+			(at 278.73 153.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.73 157.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.73 155.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 281.27 160.19) (xy 281.27 152.57))
+		(stroke (width 0) (type default))
+		(uuid "d6966bc6-0dd3-5154-8ab7-edf95868d9d5")
+	)
+	(global_label "EN_P5V_PLL"
+		(shape bidirectional)
+		(at 281.27 152.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "6de0707e-39d2-5f14-83e1-68804e67933c")
+	)
+	(symbol
+		(lib_id "ultra:LT3045-U52")
+		(at 280.00 192.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00b923e5-f380-59e5-9d46-534b34c8a4ac")
+		(property "Reference" "U52"
+			(at 280 190 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 280 194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 280 192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt3045.html"
+			(at 280 192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3 V PLL"
+			(at 280 192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 280 192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT3045"
+			(at 280 192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 262.22 192.00) (xy 249.52 192.00))
+		(stroke (width 0) (type default))
+		(uuid "c103da65-87a0-5864-9064-70c44787d4ab")
+	)
+	(global_label "P5V0"
+		(shape bidirectional)
+		(at 249.52 192.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "42d57abc-2721-5a80-a99e-2648fdf086dd")
+	)
+	(wire
+		(pts (xy 297.78 192.00) (xy 310.48 192.00))
+		(stroke (width 0) (type default))
+		(uuid "a9754f5f-923c-5655-ac70-d055d8c8f94e")
+	)
+	(global_label "P3V3_PLL"
+		(shape bidirectional)
+		(at 310.48 192.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "a9934d30-1788-534e-b51e-b4d970bfb561")
+	)
+	(symbol
+		(lib_id "power:P3V3_PLL")
+		(at 317.78 186.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "36842c2b-fd0c-5131-89bc-42f57976a757")
+		(property "Reference" "#PWR137"
+			(at 317.78 184.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3_PLL"
+			(at 317.78 188.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.78 186.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 317.78 186.00) (xy 325.40 186.00))
+		(stroke (width 0) (type default))
+		(uuid "ed0d38f6-49d6-522a-a55f-09ef5b86fdd1")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 325.40 186.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ce4833d-be64-59e6-811b-b88544f3782a")
+		(property "Reference" "#FLG15"
+			(at 325.4 184.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 325.4 188.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.4 186.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 278.73 188.19) (xy 278.73 183.11))
+		(stroke (width 0) (type default))
+		(uuid "589727d2-2fbe-5496-9928-6805f2fe2916")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.73 183.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "444283a3-71e7-53c7-a8c6-7ddd2b5bbfe4")
+		(property "Reference" "#PWR138"
+			(at 278.73 181.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.73 185.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.73 183.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 281.27 188.19) (xy 281.27 180.57))
+		(stroke (width 0) (type default))
+		(uuid "b5162e11-7a50-52ba-a293-385b5282fa82")
+	)
+	(global_label "EN_P3V3_PLL"
+		(shape bidirectional)
+		(at 281.27 180.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "8b871d9e-4702-5191-a801-b62633fddc02")
+	)
+	(symbol
+		(lib_id "ultra:LT3045-U53")
+		(at 280.00 220.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc371ed0-86ee-53a5-b932-e1b881533ead")
+		(property "Reference" "U53"
+			(at 280 218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 280 222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 280 220 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt3045.html"
+			(at 280 220 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5 V LMX1214"
+			(at 280 220 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 280 220 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT3045"
+			(at 280 220 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 262.22 220.00) (xy 249.52 220.00))
+		(stroke (width 0) (type default))
+		(uuid "128a48c1-b4dc-5958-8a5e-3ce2a8e06ea0")
+	)
+	(global_label "P5V0"
+		(shape bidirectional)
+		(at 249.52 220.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "5ee2d4db-1102-5358-b160-92eb80f43200")
+	)
+	(wire
+		(pts (xy 297.78 220.00) (xy 310.48 220.00))
+		(stroke (width 0) (type default))
+		(uuid "446c9d4b-a2e5-5ce2-b5cd-d0345adce78e")
+	)
+	(global_label "P2V5_CLK"
+		(shape bidirectional)
+		(at 310.48 220.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "f14d1e5a-da82-5ed8-bc5e-69aa842956c2")
+	)
+	(symbol
+		(lib_id "power:P2V5_CLK")
+		(at 317.78 214.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7087299-41d7-5683-96d4-e56757a257ba")
+		(property "Reference" "#PWR139"
+			(at 317.78 212.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P2V5_CLK"
+			(at 317.78 216.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.78 214.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 317.78 214.00) (xy 325.40 214.00))
+		(stroke (width 0) (type default))
+		(uuid "866cd5c9-4ae7-5b69-9b2d-b76730beedf9")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 325.40 214.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dabaa294-c772-589d-a5cb-f84ce7063a84")
+		(property "Reference" "#FLG16"
+			(at 325.4 212.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 325.4 216.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.4 214.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 278.73 216.19) (xy 278.73 211.11))
+		(stroke (width 0) (type default))
+		(uuid "ea93e830-bca7-51a0-b6ea-c2022979b524")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.73 211.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f17df7d8-2106-5a26-8b97-dd76006df005")
+		(property "Reference" "#PWR140"
+			(at 278.73 209.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.73 213.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.73 211.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 281.27 216.19) (xy 281.27 208.57))
+		(stroke (width 0) (type default))
+		(uuid "e76ab78e-30f2-5bf1-8bd8-638479801bc3")
+	)
+	(global_label "EN_P2V5_CLK"
+		(shape bidirectional)
+		(at 281.27 208.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "a7b50516-4fd4-5feb-9ac8-2a5874f1ae0d")
+	)
+	(symbol
+		(lib_id "ultra:LT3045-U54")
+		(at 280.00 248.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a34fa03d-0ae3-5770-a44d-496a5f881044")
+		(property "Reference" "U54"
+			(at 280 246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 280 250 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 280 248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/en/products/lt3045.html"
+			(at 280 248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5 V Versal aux, if the current fits, else an LTM"
+			(at 280 248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 280 248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LT3045"
+			(at 280 248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "U54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 262.22 248.00) (xy 249.52 248.00))
+		(stroke (width 0) (type default))
+		(uuid "17507048-cfa3-5190-b81d-c19797106e69")
+	)
+	(global_label "P3V3"
+		(shape bidirectional)
+		(at 249.52 248.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "c1cda20a-70d8-54a8-9acd-a24df82c9689")
+	)
+	(wire
+		(pts (xy 297.78 248.00) (xy 310.48 248.00))
+		(stroke (width 0) (type default))
+		(uuid "449eacaf-42b7-5ccf-a51a-62f866b577c1")
+	)
+	(global_label "P1V5_AUX"
+		(shape bidirectional)
+		(at 310.48 248.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "90c9a637-eec5-54bf-9fbd-4dd11f3f7588")
+	)
+	(symbol
+		(lib_id "power:P1V5_AUX")
+		(at 317.78 242.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d6960b4-f979-5271-9ac4-18e7cf528851")
+		(property "Reference" "#PWR141"
+			(at 317.78 240.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V5_AUX"
+			(at 317.78 244.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.78 242.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 317.78 242.00) (xy 325.40 242.00))
+		(stroke (width 0) (type default))
+		(uuid "c67f0a57-d500-5c7a-8eba-7a193968a2db")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 325.40 242.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f825b2f-862d-5826-8eb8-18c4bd9dd81d")
+		(property "Reference" "#FLG17"
+			(at 325.4 240.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 325.4 244.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.4 242.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 278.73 244.19) (xy 278.73 239.11))
+		(stroke (width 0) (type default))
+		(uuid "07116138-9cc2-5500-b811-b0d7839838ef")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.73 239.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c37a327c-76f7-56c0-a399-52a24b8da858")
+		(property "Reference" "#PWR142"
+			(at 278.73 237.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.73 241.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.73 239.10999999999999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 281.27 244.19) (xy 281.27 236.57))
+		(stroke (width 0) (type default))
+		(uuid "8ed090c9-4939-5114-ba61-4d51e661466b")
+	)
+	(global_label "EN_P1V5_AUX"
+		(shape bidirectional)
+		(at 281.27 236.57 270)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "2a83d62e-b6e2-59ad-b0cf-a010eaed6524")
+	)
+	(symbol
+		(lib_id "ultra:BARREL_48V-J12")
+		(at 20.00 300.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeebf380-b469-5564-b187-5e5efa2844e2")
+		(property "Reference" "J12"
+			(at 20 298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BARREL_48V"
+			(at 20 302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "land pattern from datasheet, not yet drawn"
+			(at 20 300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20 300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Alternate input so the instrument runs without a 240 W PD source. OR-ed by the LT8672."
+			(at 20 300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Switchcraft"
+			(at 20 300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "locking 48 V barrel, center positive"
+			(at 20 300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 37.78 300.00) (xy 50.48 300.00))
+		(stroke (width 0) (type default))
+		(uuid "3f367bb9-07f9-5bba-9912-ca4504698295")
+	)
+	(global_label "P48V_BARREL"
+		(shape bidirectional)
+		(at 50.48 300.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "4d67a9c2-e50d-5d26-a55a-0923ff6b78a2")
+	)
+	(wire
+		(pts (xy 20.00 296.19) (xy 20.00 291.11))
+		(stroke (width 0) (type default))
+		(uuid "3ebbb089-4cff-559f-81c6-0be306f02149")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.00 291.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b761466-0f7b-5d2e-a50a-ec7f0b63da49")
+		(property "Reference" "#PWR143"
+			(at 20.0 289.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.0 293.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.0 291.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Ferrite splits of P1V0_BULK: P1V0_ADC, P1V0_ADCBK, P1V0_DAC, P1V0_DACDIG. P5V0_RF and P3V3_RF are ferrite-isolated from P5V0 and P3V3. P3V3_ALWAYS is a small LDO off the TPS26750 dead-battery path so the PD controller boots before 48 V exists. EN_* nets are ADM1266 outputs. Nothing self-starts except the PD controller."
+		(at 20.00 360.00 0)
+		(effects (font (size 1.27 1.27)))
+		(uuid "d5fd5ddf-473c-5495-a2d0-f7694beb6975")
+	)
+	(symbol
+		(lib_id "ultra:2pin-ferrite")
+		(at 420.00 40.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aee5f837-31ef-580a-a25a-5b4a7776c7aa")
+		(property "Reference" "FB1"
+			(at 420 38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ferrite"
+			(at 420 42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Domain split P1V0_BULK to P1V0_ADC. Current rating sized to the downstream datasheet, not a 0603 signal bead."
+			(at 420 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 420 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "current-rated, impedance at the switching frequency specified in the power note"
+			(at 420 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 414.92 40.00) (xy 402.22 40.00))
+		(stroke (width 0) (type default))
+		(uuid "c4388076-b01d-52b8-8ac2-9ee80b63c788")
+	)
+	(global_label "P1V0_BULK"
+		(shape bidirectional)
+		(at 402.22 40.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "bb66ff43-f286-53b9-9466-9ddfe5830e33")
+	)
+	(wire
+		(pts (xy 425.08 40.00) (xy 437.78 40.00))
+		(stroke (width 0) (type default))
+		(uuid "fa738f3c-2d3d-5ecf-a176-c6308f03c70f")
+	)
+	(global_label "P1V0_ADC"
+		(shape bidirectional)
+		(at 437.78 40.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "30524cee-34e7-52d8-a9d8-1a75eb73d535")
+	)
+	(symbol
+		(lib_id "power:P1V0_ADC")
+		(at 470.00 34.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9ba69c8-c0a1-57aa-bf0f-cb5a70d0ac7c")
+		(property "Reference" "#PWR144"
+			(at 470 32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V0_ADC"
+			(at 470 36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 470 34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 470.00 34.00) (xy 477.62 34.00))
+		(stroke (width 0) (type default))
+		(uuid "9715b951-c111-564b-8a9b-338b61da62f5")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 477.62 34.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "144dcb71-0b2c-5165-a71b-618f19f8424e")
+		(property "Reference" "#FLG18"
+			(at 477.62 32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 477.62 36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 477.62 34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:2pin-ferrite")
+		(at 420.00 50.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff6e3361-705e-59f9-a8c9-0f8486567137")
+		(property "Reference" "FB2"
+			(at 420 48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ferrite"
+			(at 420 52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420 50 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Domain split P1V0_BULK to P1V0_ADCBK. Current rating sized to the downstream datasheet, not a 0603 signal bead."
+			(at 420 50 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 420 50 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "current-rated, impedance at the switching frequency specified in the power note"
+			(at 420 50 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 414.92 50.00) (xy 402.22 50.00))
+		(stroke (width 0) (type default))
+		(uuid "6b5e0481-2ab9-5f17-af33-2029db8f4934")
+	)
+	(global_label "P1V0_BULK"
+		(shape bidirectional)
+		(at 402.22 50.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "60f7d3e7-651a-5763-94b6-4491d73c538c")
+	)
+	(wire
+		(pts (xy 425.08 50.00) (xy 437.78 50.00))
+		(stroke (width 0) (type default))
+		(uuid "94cfd802-267c-5b8c-8ae1-814d3e4877e8")
+	)
+	(global_label "P1V0_ADCBK"
+		(shape bidirectional)
+		(at 437.78 50.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "3ee21392-84c7-57a2-910e-a2c8dbf5ee36")
+	)
+	(symbol
+		(lib_id "power:P1V0_ADCBK")
+		(at 470.00 44.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "de0477d1-0941-51e8-85a7-7a2fecf00937")
+		(property "Reference" "#PWR145"
+			(at 470 42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V0_ADCBK"
+			(at 470 46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 470 44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 470.00 44.00) (xy 477.62 44.00))
+		(stroke (width 0) (type default))
+		(uuid "12eca635-78e0-5b59-8427-698fa5ff00c9")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 477.62 44.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b46ead25-4244-5e20-885d-46a597451e33")
+		(property "Reference" "#FLG19"
+			(at 477.62 42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 477.62 46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 477.62 44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:2pin-ferrite")
+		(at 420.00 60.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a53fe38-691b-5ee7-8c63-59534c5d4f0e")
+		(property "Reference" "FB3"
+			(at 420 58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ferrite"
+			(at 420 62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420 60 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Domain split P1V0_BULK to P1V0_DAC. Current rating sized to the downstream datasheet, not a 0603 signal bead."
+			(at 420 60 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 420 60 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "current-rated, impedance at the switching frequency specified in the power note"
+			(at 420 60 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 414.92 60.00) (xy 402.22 60.00))
+		(stroke (width 0) (type default))
+		(uuid "824529d7-bcae-5a49-ad03-4b7a8fbeb309")
+	)
+	(global_label "P1V0_BULK"
+		(shape bidirectional)
+		(at 402.22 60.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "fc6f7bc8-8b4d-5cc9-a46f-630746d10610")
+	)
+	(wire
+		(pts (xy 425.08 60.00) (xy 437.78 60.00))
+		(stroke (width 0) (type default))
+		(uuid "933165f3-6ab8-5663-b1a6-bd1a186bee01")
+	)
+	(global_label "P1V0_DAC"
+		(shape bidirectional)
+		(at 437.78 60.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "8938349a-780c-5064-89ae-790708677873")
+	)
+	(symbol
+		(lib_id "power:P1V0_DAC")
+		(at 470.00 54.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8cb72c2-c947-5241-9fc6-db458668ea62")
+		(property "Reference" "#PWR146"
+			(at 470 52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V0_DAC"
+			(at 470 56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 470 54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 470.00 54.00) (xy 477.62 54.00))
+		(stroke (width 0) (type default))
+		(uuid "e0c089fe-b2ec-5762-b930-a51fcb1eccfb")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 477.62 54.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa880a4a-cdc6-53d2-a40c-cd6cfd0045e7")
+		(property "Reference" "#FLG20"
+			(at 477.62 52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 477.62 56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 477.62 54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:2pin-ferrite")
+		(at 420.00 70.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbee7707-9067-5868-b10e-695adb555ba2")
+		(property "Reference" "FB4"
+			(at 420 68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ferrite"
+			(at 420 72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Domain split P1V0_BULK to P1V0_DACDIG. Current rating sized to the downstream datasheet, not a 0603 signal bead."
+			(at 420 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 420 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "current-rated, impedance at the switching frequency specified in the power note"
+			(at 420 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 414.92 70.00) (xy 402.22 70.00))
+		(stroke (width 0) (type default))
+		(uuid "e25388ff-213f-5bb4-8487-065d9e6af9ed")
+	)
+	(global_label "P1V0_BULK"
+		(shape bidirectional)
+		(at 402.22 70.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "ab6918ef-c909-5313-b78d-eb54368be330")
+	)
+	(wire
+		(pts (xy 425.08 70.00) (xy 437.78 70.00))
+		(stroke (width 0) (type default))
+		(uuid "f75adb41-8cdd-5c27-b715-9709919806f6")
+	)
+	(global_label "P1V0_DACDIG"
+		(shape bidirectional)
+		(at 437.78 70.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "fd0f6b8d-8487-5bdb-94b0-02182de50782")
+	)
+	(symbol
+		(lib_id "power:P1V0_DACDIG")
+		(at 470.00 64.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "80cb39f9-6bcd-5815-8a6b-45eb8bbe5389")
+		(property "Reference" "#PWR147"
+			(at 470 62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V0_DACDIG"
+			(at 470 66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 470 64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 470.00 64.00) (xy 477.62 64.00))
+		(stroke (width 0) (type default))
+		(uuid "7fd72f0f-ebf6-5cb1-bf40-e11573fe2479")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 477.62 64.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b5c3a5f-b0eb-5fba-8d0d-686e1e553e34")
+		(property "Reference" "#FLG21"
+			(at 477.62 62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 477.62 66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 477.62 64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:2pin-ferrite")
+		(at 420.00 80.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fa62059-df79-5281-bf65-09c7c05dbe10")
+		(property "Reference" "FB5"
+			(at 420 78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ferrite"
+			(at 420 82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Domain split P5V0 to P5V0_RF. Current rating sized to the downstream datasheet, not a 0603 signal bead."
+			(at 420 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 420 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "current-rated, impedance at the switching frequency specified in the power note"
+			(at 420 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 414.92 80.00) (xy 402.22 80.00))
+		(stroke (width 0) (type default))
+		(uuid "ef810a57-5a11-5574-ba9a-b1df2f59ed31")
+	)
+	(global_label "P5V0"
+		(shape bidirectional)
+		(at 402.22 80.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "506dc2ec-ab26-5c6c-9135-17855ba9e3c9")
+	)
+	(wire
+		(pts (xy 425.08 80.00) (xy 437.78 80.00))
+		(stroke (width 0) (type default))
+		(uuid "2d687c8a-f45f-5695-9b9c-670ee6de7f8f")
+	)
+	(global_label "P5V0_RF"
+		(shape bidirectional)
+		(at 437.78 80.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "6fa55b6d-e8ef-5298-85b8-4afbbc290584")
+	)
+	(symbol
+		(lib_id "power:P5V0_RF")
+		(at 470.00 74.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e770c2b7-7a54-5ec3-93c1-dd94624b062d")
+		(property "Reference" "#PWR148"
+			(at 470 72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5V0_RF"
+			(at 470 76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 470 74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 470.00 74.00) (xy 477.62 74.00))
+		(stroke (width 0) (type default))
+		(uuid "e82d12da-3305-58e5-980b-3a9711d909eb")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 477.62 74.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "25acd1f5-9ba9-52ff-8b62-e55fe805e434")
+		(property "Reference" "#FLG22"
+			(at 477.62 72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 477.62 76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 477.62 74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:2pin-ferrite")
+		(at 420.00 90.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c397bee-0c24-5192-a8e4-01d5cae44643")
+		(property "Reference" "FB6"
+			(at 420 88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ferrite"
+			(at 420 92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420 90 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Domain split P3V3 to P3V3_RF. Current rating sized to the downstream datasheet, not a 0603 signal bead."
+			(at 420 90 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 420 90 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "current-rated, impedance at the switching frequency specified in the power note"
+			(at 420 90 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "FB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 414.92 90.00) (xy 402.22 90.00))
+		(stroke (width 0) (type default))
+		(uuid "04536295-63e4-5ebb-afe0-6959e6a4cfe5")
+	)
+	(global_label "P3V3"
+		(shape bidirectional)
+		(at 402.22 90.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "4ade39d6-7181-5c3b-b097-af107ef8f4b8")
+	)
+	(wire
+		(pts (xy 425.08 90.00) (xy 437.78 90.00))
+		(stroke (width 0) (type default))
+		(uuid "56ce107c-47b9-55ef-bc4f-ce034ffdbe55")
+	)
+	(global_label "P3V3_RF"
+		(shape bidirectional)
+		(at 437.78 90.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "912bcdfa-e8e4-5bb7-818a-b52ca994c7e8")
+	)
+	(symbol
+		(lib_id "power:P3V3_RF")
+		(at 470.00 84.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "14e0ddae-930d-5a0e-b867-18149c400152")
+		(property "Reference" "#PWR149"
+			(at 470 82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3V3_RF"
+			(at 470 86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 470 84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 470.00 84.00) (xy 477.62 84.00))
+		(stroke (width 0) (type default))
+		(uuid "d689a308-c54c-50f4-9f40-fd2e81412f1b")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 477.62 84.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb376207-f11c-5b34-9f94-693bb7fb604d")
+		(property "Reference" "#FLG23"
+			(at 477.62 82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 477.62 86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 477.62 84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ultra:2pin-ferrite")
+		(at 420.00 100.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d980e65a-326e-5aec-b226-744674566758")
+		(property "Reference" "FB7"
+			(at 420 98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ferrite"
+			(at 420 102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420 100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Domain split P1V8 to P1V8_AFE. Current rating sized to the downstream datasheet, not a 0603 signal bead."
+			(at 420 100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 420 100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "current-rated, impedance at the switching frequency specified in the power note"
+			(at 420 100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "FB7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 414.92 100.00) (xy 402.22 100.00))
+		(stroke (width 0) (type default))
+		(uuid "9610ca7a-ad3e-5815-8dde-89aaa7de80d5")
+	)
+	(global_label "P1V8"
+		(shape bidirectional)
+		(at 402.22 100.00 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "8b852e7c-21af-5140-abc0-b26eb357ae6e")
+	)
+	(wire
+		(pts (xy 425.08 100.00) (xy 437.78 100.00))
+		(stroke (width 0) (type default))
+		(uuid "ab36fa4b-e751-596f-ae02-557876234ad9")
+	)
+	(global_label "P1V8_AFE"
+		(shape bidirectional)
+		(at 437.78 100.00 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left)
+		)
+		(uuid "52999df1-1c3b-5c49-8f7f-536d67b74be9")
+	)
+	(symbol
+		(lib_id "power:P1V8_AFE")
+		(at 470.00 94.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "51886f26-3253-5b31-aff7-fcc41f618f94")
+		(property "Reference" "#PWR150"
+			(at 470 92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1V8_AFE"
+			(at 470 96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 470 94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#PWR150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 470.00 94.00) (xy 477.62 94.00))
+		(stroke (width 0) (type default))
+		(uuid "1af9a405-4090-5234-8021-db231e29d82e")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 477.62 94.00 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c70bd4d1-4163-5cd1-9def-a72ff998cd9e")
+		(property "Reference" "#FLG24"
+			(at 477.62 92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 477.62 96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 477.62 94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a/a4b61a04-9e05-5cd4-8ea7-2f2fa016d164"
+					(reference "#FLG24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

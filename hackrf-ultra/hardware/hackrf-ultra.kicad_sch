@@ -1,0 +1,621 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3471c6df-df73-5b43-905f-a1898f5a366a")
+	(paper "A1")
+	(title_block
+		(title "${TITLE}")
+		(date "${DATE}")
+		(rev "${VERSION}")
+		(company "${COPYRIGHT}")
+		(comment 1 "${LICENSE}")
+		(comment 2 "Architecture rev 0.1. Not a fabrication package.")
+	)
+	(lib_symbols
+
+	)
+	(text "HackRF Ultra 0.1 architecture. Hierarchical pins carry the analog, clock and arming nets. JESD lanes, LVDS, SPI chip-selects and power enables are global labels of the form shown on the child sheets. This is not a fabrication package."
+		(at 20.00 12.00 0)
+		(effects (font (size 1.8 1.8)))
+		(uuid "7d3b359b-23ef-5a30-b47c-8493924d63c9")
+	)
+	(sheet
+		(at 15.00 25.00)
+		(size 160.00 200.00)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "93733333-6c25-52c7-8f29-df6ba8322a79")
+		(property "Sheetname" "RF"
+			(at 15 23.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "rf_frontend.kicad_sch"
+			(at 15 226.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TXA_EN" input
+			(at 15.00 33.00 180)
+			(uuid "1d314f32-f0a5-5687-958a-4d23d9f243e4")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "TXB_EN" input
+			(at 15.00 38.08 180)
+			(uuid "b19d5772-5467-5568-852d-799ec6cb9ee5")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "TX_ARM" input
+			(at 15.00 43.16 180)
+			(uuid "dd848d8f-9170-5d85-a2e7-84d5b0c016c2")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "ADC0_P" bidirectional
+			(at 175.00 33.00 0)
+			(uuid "74dff057-b289-5f3b-9636-7a8b7a37be35")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "ADC0_N" bidirectional
+			(at 175.00 38.08 0)
+			(uuid "084f301e-8e17-51bd-8372-725b8657bb56")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "ADC1_P" bidirectional
+			(at 175.00 43.16 0)
+			(uuid "69a1211e-4b9c-551b-b3ce-b708678b5243")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "ADC1_N" bidirectional
+			(at 175.00 48.24 0)
+			(uuid "e4704269-5c33-56bc-8d48-1b17eb08b72b")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "ADC2_P" bidirectional
+			(at 175.00 53.32 0)
+			(uuid "95f663f9-d280-5ebd-ad5a-e39133f882d9")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "ADC2_N" bidirectional
+			(at 175.00 58.40 0)
+			(uuid "b542f484-7763-5122-8eca-c1cf667ed3eb")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "ADC3_P" bidirectional
+			(at 175.00 63.48 0)
+			(uuid "81f9f443-55a6-50ef-ae10-d63b18f6bf01")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "ADC3_N" bidirectional
+			(at 175.00 68.56 0)
+			(uuid "8bacb388-dfdc-596e-bfb0-392321076bd1")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "DAC0_P" bidirectional
+			(at 175.00 73.64 0)
+			(uuid "6cb11029-d3b6-5752-b115-3e0bf5030828")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "DAC0_N" bidirectional
+			(at 175.00 78.72 0)
+			(uuid "533e648f-3086-571a-be3d-98e2bd53ee59")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "DAC1_P" bidirectional
+			(at 175.00 83.80 0)
+			(uuid "9828ab17-d108-52b9-be4e-567926e023a6")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "DAC1_N" bidirectional
+			(at 175.00 88.88 0)
+			(uuid "239a5b39-7192-5f17-9fb4-6b375cb373b8")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "TXA_FAULT" output
+			(at 175.00 93.96 0)
+			(uuid "beac07ae-3aaf-51e6-9799-092d4b0cd920")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "TXB_FAULT" output
+			(at 175.00 99.04 0)
+			(uuid "06613d5c-57ea-56de-b3b7-2cdfb8365037")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.00 25.00)
+		(size 150.00 160.00)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "8548a0a2-1472-568e-b1b2-fa5f49c501fa")
+		(property "Sheetname" "Converter"
+			(at 200 23.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "converter.kicad_sch"
+			(at 200 186.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "ADC0_P" bidirectional
+			(at 200.00 33.00 180)
+			(uuid "5413f72f-9c67-5a16-9cb3-b4da27b0969a")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "ADC0_N" bidirectional
+			(at 200.00 38.08 180)
+			(uuid "7dae53a4-76fa-5b20-b6d4-3aa008f9f9fe")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "ADC1_P" bidirectional
+			(at 200.00 43.16 180)
+			(uuid "ee8b6c3a-3ce7-5f0e-95a5-775c1ec1e9fa")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "ADC1_N" bidirectional
+			(at 200.00 48.24 180)
+			(uuid "9d737ad5-87d0-58c4-9b18-e940c89e5bb1")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "ADC2_P" bidirectional
+			(at 200.00 53.32 180)
+			(uuid "8d9eb655-949a-530e-86cc-7f4af83cfc20")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "ADC2_N" bidirectional
+			(at 200.00 58.40 180)
+			(uuid "935a7c6b-479a-5d72-a417-73ad7760057d")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "ADC3_P" bidirectional
+			(at 200.00 63.48 180)
+			(uuid "7570529b-ad08-5b17-8c5d-120051492cca")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "ADC3_N" bidirectional
+			(at 200.00 68.56 180)
+			(uuid "723fcf78-52c2-5740-9d24-b27a7608bf70")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "DAC0_P" bidirectional
+			(at 200.00 73.64 180)
+			(uuid "f04bfcfc-77d9-5758-81f8-9e32741e28a0")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "DAC0_N" bidirectional
+			(at 200.00 78.72 180)
+			(uuid "fac164c1-f302-5fe9-95e2-effa0cacfc94")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "DAC1_P" bidirectional
+			(at 200.00 83.80 180)
+			(uuid "60b49b08-3158-5cbd-b4be-97ad5d1ae9f6")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "DAC1_N" bidirectional
+			(at 200.00 88.88 180)
+			(uuid "108cceb2-f528-5045-9bf0-62987bf5ee7c")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "CLK_P" input
+			(at 200.00 93.96 180)
+			(uuid "14bd0b32-4e99-53ec-9a2a-d5df5719c859")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "CLK_N" input
+			(at 200.00 99.04 180)
+			(uuid "c70efe91-f9f6-577c-9240-5dd470ad602a")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "SYSREF_P" input
+			(at 200.00 104.12 180)
+			(uuid "1d97afd7-6a86-5192-9619-04140cae2da9")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "SYSREF_N" input
+			(at 200.00 109.20 180)
+			(uuid "38b21f70-a9a6-5d7e-8bb7-5cd69e7d0002")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "AFE_RESET" input
+			(at 350.00 33.00 0)
+			(uuid "2ca37caa-ee51-534b-8fea-2b775746d6e6")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 370.00 25.00)
+		(size 140.00 80.00)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "0e3a7a00-a1fd-5a1b-a45c-00069986bdfd")
+		(property "Sheetname" "Clock"
+			(at 370 23.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "clock.kicad_sch"
+			(at 370 106.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "CLK_P" output
+			(at 510.00 33.00 0)
+			(uuid "a075fa98-60a3-553a-ab9a-1605ba8b1283")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "CLK_N" output
+			(at 510.00 38.08 0)
+			(uuid "e41b22f5-d51d-5dae-b321-14554002cee9")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "SYSREF_P" output
+			(at 510.00 43.16 0)
+			(uuid "ca0b3d70-b556-5ba4-b267-6cc1b9901b5d")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "SYSREF_N" output
+			(at 510.00 48.24 0)
+			(uuid "107b02d0-32ec-56ce-8e11-7d584a73d745")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.00 210.00)
+		(size 170.00 120.00)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "92f58996-7739-5ee2-abd9-8bd9208aa1ee")
+		(property "Sheetname" "FPGA"
+			(at 200 208.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 200 331.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SYSREF_P" input
+			(at 200.00 218.00 180)
+			(uuid "9c84f056-e7b1-51b2-87d6-bd7483a05f20")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "SYSREF_N" input
+			(at 200.00 223.08 180)
+			(uuid "365f0c85-1973-5865-a8ca-7a578727c149")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "AFE_RESET" output
+			(at 200.00 228.16 180)
+			(uuid "79119a00-0eaf-5d84-b026-80ee779b6a6a")
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(pin "TXA_EN" output
+			(at 370.00 218.00 0)
+			(uuid "e3da54a2-7f72-5517-bed3-3cbd40664408")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "TXB_EN" output
+			(at 370.00 223.08 0)
+			(uuid "85bdcefa-513b-57f9-9e06-19ef3896e405")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(pin "TX_ARM" input
+			(at 370.00 228.16 0)
+			(uuid "026dbe1c-7ef9-50b4-8373-528fb021074b")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 390.00 210.00)
+		(size 150.00 80.00)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "b526a517-8e56-5d65-af21-34b0a8b5b9c0")
+		(property "Sheetname" "Host"
+			(at 390 208.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "host.kicad_sch"
+			(at 390 291.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.00 250.00)
+		(size 160.00 80.00)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "a4b61a04-9e05-5cd4-8ea7-2f2fa016d164")
+		(property "Sheetname" "Power"
+			(at 15 248.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 15 331.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.00 350.00)
+		(size 160.00 50.00)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0.0000))
+		(uuid "382cfe3c-f4f7-5ab0-ada9-b6784f1469d7")
+		(property "Sheetname" "Supervisor"
+			(at 15 348.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "supervisor.kicad_sch"
+			(at 15 401.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TX_ARM" output
+			(at 175.00 358.00 0)
+			(uuid "c9f40ead-1198-505f-8122-64c091d85cc2")
+			(effects (font (size 1.27 1.27)) (justify right))
+		)
+		(instances
+			(project "hackrf-ultra"
+				(path "/3471c6df-df73-5b43-905f-a1898f5a366a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 15.00 33.00) (xy 370.00 218.00))
+		(stroke (width 0) (type default))
+		(uuid "02f480ac-c168-5856-8a71-2b8c2041f73c")
+	)
+	(wire
+		(pts (xy 15.00 38.08) (xy 370.00 223.08))
+		(stroke (width 0) (type default))
+		(uuid "48ab054d-93e3-5aaf-924f-091690a7bf35")
+	)
+	(wire
+		(pts (xy 15.00 43.16) (xy 370.00 228.16))
+		(stroke (width 0) (type default))
+		(uuid "f46e2fec-f636-5d08-a45a-d0c68fe0f6fe")
+	)
+	(wire
+		(pts (xy 370.00 228.16) (xy 175.00 358.00))
+		(stroke (width 0) (type default))
+		(uuid "db5e0681-db2a-5905-af4e-698d92137a0a")
+	)
+	(wire
+		(pts (xy 175.00 33.00) (xy 200.00 33.00))
+		(stroke (width 0) (type default))
+		(uuid "0491c356-3c95-51ec-8d0a-a78fb803a36a")
+	)
+	(wire
+		(pts (xy 175.00 38.08) (xy 200.00 38.08))
+		(stroke (width 0) (type default))
+		(uuid "95444bc4-d9b9-5255-8d97-f04aff06c862")
+	)
+	(wire
+		(pts (xy 175.00 43.16) (xy 200.00 43.16))
+		(stroke (width 0) (type default))
+		(uuid "4279da92-7e12-52c7-9cb0-0319674464d1")
+	)
+	(wire
+		(pts (xy 175.00 48.24) (xy 200.00 48.24))
+		(stroke (width 0) (type default))
+		(uuid "4c92b5e2-fa46-55a7-832d-937f701e6255")
+	)
+	(wire
+		(pts (xy 175.00 53.32) (xy 200.00 53.32))
+		(stroke (width 0) (type default))
+		(uuid "ab11f45d-85cb-59b8-ae63-26261ab15e4e")
+	)
+	(wire
+		(pts (xy 175.00 58.40) (xy 200.00 58.40))
+		(stroke (width 0) (type default))
+		(uuid "34a27697-ab30-5347-a2b2-d484e4767737")
+	)
+	(wire
+		(pts (xy 175.00 63.48) (xy 200.00 63.48))
+		(stroke (width 0) (type default))
+		(uuid "d8a20434-2103-5960-b6c5-8c0ac57b1288")
+	)
+	(wire
+		(pts (xy 175.00 68.56) (xy 200.00 68.56))
+		(stroke (width 0) (type default))
+		(uuid "1c138be2-3d4c-5242-91bb-47c1fae889ff")
+	)
+	(wire
+		(pts (xy 175.00 73.64) (xy 200.00 73.64))
+		(stroke (width 0) (type default))
+		(uuid "65154254-c08b-5629-94f7-8949a26fc185")
+	)
+	(wire
+		(pts (xy 175.00 78.72) (xy 200.00 78.72))
+		(stroke (width 0) (type default))
+		(uuid "fe12559f-a4a1-5db3-8fb8-a788d391f37e")
+	)
+	(wire
+		(pts (xy 175.00 83.80) (xy 200.00 83.80))
+		(stroke (width 0) (type default))
+		(uuid "ac3fda48-ea3c-5047-9ac9-96c767b76ce0")
+	)
+	(wire
+		(pts (xy 175.00 88.88) (xy 200.00 88.88))
+		(stroke (width 0) (type default))
+		(uuid "f275969b-2b15-56f8-a5c2-f2b48fbbc907")
+	)
+	(wire
+		(pts (xy 200.00 93.96) (xy 510.00 33.00))
+		(stroke (width 0) (type default))
+		(uuid "9664067a-7efa-50c6-8866-e40b73689311")
+	)
+	(wire
+		(pts (xy 200.00 99.04) (xy 510.00 38.08))
+		(stroke (width 0) (type default))
+		(uuid "27db174a-04c0-5c96-a582-5c6ce437b827")
+	)
+	(wire
+		(pts (xy 200.00 104.12) (xy 510.00 43.16))
+		(stroke (width 0) (type default))
+		(uuid "9fb63c3d-7361-56c1-8565-fd300b9fbbf7")
+	)
+	(wire
+		(pts (xy 510.00 43.16) (xy 200.00 218.00))
+		(stroke (width 0) (type default))
+		(uuid "35cbda99-52d3-5b09-a0b8-7663dac4235b")
+	)
+	(wire
+		(pts (xy 200.00 109.20) (xy 510.00 48.24))
+		(stroke (width 0) (type default))
+		(uuid "e1dd9012-f4b2-58dc-b40c-8dd2e53e993b")
+	)
+	(wire
+		(pts (xy 510.00 48.24) (xy 200.00 223.08))
+		(stroke (width 0) (type default))
+		(uuid "635bf112-94ad-5f7f-bd33-26a8a0afdaf0")
+	)
+	(wire
+		(pts (xy 350.00 33.00) (xy 200.00 228.16))
+		(stroke (width 0) (type default))
+		(uuid "2ffec498-dda2-5f97-88a1-39b5c4c72d42")
+	)
+	(text "Power rails are global power symbols, drawn on the power sheet with a PWR_FLAG at each regulator. They are not sheet pins."
+		(at 20.00 520.00 0)
+		(effects (font (size 1.27 1.27)))
+		(uuid "b4cd5285-459a-58ca-bcf5-eac35723659c")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
